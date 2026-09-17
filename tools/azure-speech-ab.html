@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azure Speech A/B Lab</title>
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;color:#172033;background:#f5f7fb}
+    *{box-sizing:border-box} body{margin:0} button,select,textarea{font:inherit}
+    .wrap{max-width:1120px;margin:auto;padding:18px 16px 80px}.top{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    h1{font-size:1.35rem;margin:0}.sub{color:#62708a;font-size:.9rem;line-height:1.55}.panel,.case{background:#fff;border:1px solid #e1e6ef;border-radius:18px;box-shadow:0 6px 22px rgba(30,48,80,.06)}
+    .panel{padding:14px;margin:14px 0}.controls{display:grid;grid-template-columns:1fr 1fr;gap:12px}.side{padding:12px;border-radius:14px;background:#f8faff}.side h2{font-size:1rem;margin:0 0 8px}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:8px}.row label{font-size:.78rem;color:#66738d}.row select{width:100%;margin-top:4px;padding:9px;border:1px solid #ccd5e2;border-radius:10px;background:#fff}
+    .status{padding:10px 12px;border-radius:12px;background:#eef4ff;color:#315a9e;font-size:.86rem;line-height:1.5}.status.warn{background:#fff5df;color:#8a5a00}.summary{font-weight:700}
+    .case{padding:14px;margin:12px 0}.case-head{display:flex;gap:10px;align-items:flex-start;justify-content:space-between}.sentence{font-size:1.35rem;font-weight:800;line-height:1.55}.focus{font-size:.82rem;color:#51647e}.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{font-size:.7rem;padding:3px 7px;border-radius:999px;background:#edf2f8;color:#52627a}
+    .plays{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:12px 0}.play{min-height:46px;border:0;border-radius:12px;font-weight:800;cursor:pointer}.play.a{background:#e9f1ff;color:#2356a6}.play.b{background:#eef8ed;color:#2c6a2f}.play.web{background:#f4f0ff;color:#6844a1}.play:disabled{opacity:.38;cursor:not-allowed}
+    .judge{display:grid;grid-template-columns:1fr 1fr;gap:10px}.judge-box{border:1px solid #e3e8f0;border-radius:12px;padding:10px}.judge-box strong{font-size:.86rem}.checks{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px;font-size:.8rem}.note{width:100%;margin-top:9px;min-height:54px;border:1px solid #d4dce8;border-radius:10px;padding:8px;resize:vertical}
+    .winner{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:9px;font-size:.82rem}.winner label{padding:5px 8px;background:#f6f7fa;border-radius:9px}.muted{color:#7b879b}.hidden{display:none!important}
+    .footer-tools{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-top:1px solid #dfe5ef;padding:9px 14px}.footer-inner{max-width:1120px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:8px}.footer-inner button{border:0;border-radius:10px;padding:9px 12px;background:#253f70;color:white;font-weight:700}
+    @media(max-width:700px){.controls,.judge{grid-template-columns:1fr}.plays{grid-template-columns:1fr}.sentence{font-size:1.2rem}.wrap{padding:12px 10px 80px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><div><h1>🔊 Azure Speech A/B Lab</h1><div class="sub">26 句 × 3 個 zh-TW voice × 全句 / 局部 phoneme。評分只存在此瀏覽器，適合反覆實聽。</div></div><a href="../index.html">← Lab 首頁</a></div>
+
+  <div class="panel">
+    <div id="build-status" class="status">讀取產生狀態…</div>
+    <div class="controls">
+      <div class="side"><h2>A 方案</h2><div class="row"><label>Voice<select id="a-voice"></select></label><label>策略<select id="a-mode"><option value="partial">局部 phoneme</option><option value="full">全句 phoneme</option></select></label></div></div>
+      <div class="side"><h2>B 方案</h2><div class="row"><label>Voice<select id="b-voice"></select></label><label>策略<select id="b-mode"><option value="full">全句 phoneme</option><option value="partial">局部 phoneme</option></select></label></div></div>
+    </div>
+    <p class="sub">建議先固定同一 voice 比較「局部 vs 全句」，再固定同一策略比較三個 voice。Web Speech 僅做目前正式版基準，不納入 Azure 評分。</p>
+    <div id="summary" class="summary">尚未評分</div>
+  </div>
+
+  <div id="cases"></div>
+</div>
+<div class="footer-tools"><div class="footer-inner"><span id="save-note" class="muted">評分自動儲存</span><button id="export-btn" type="button">匯出評分 JSON</button></div></div>
+<script>
+(() => {
+  const VOICES=['zh-TW-HsiaoChenNeural','zh-TW-HsiaoYuNeural','zh-TW-YunJheNeural'];
+  const STORE='hanziAzureSpeechAbRatingsV1';
+  let cases=[]; let manifest={variants:{}}; let ratings=loadRatings(); let activeAudio=null;
+  const $=id=>document.getElementById(id);
+  function loadRatings(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch{return {}}}
+  function saveRatings(){localStorage.setItem(STORE,JSON.stringify(ratings));$('save-note').textContent='已儲存 '+new Date().toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'});updateSummary()}
+  function setupSelects(){for(const id of ['a-voice','b-voice']){$(id).innerHTML=VOICES.map(v=>`<option value="${v}">${v.replace('zh-TW-','').replace('Neural','')}</option>`).join('')} $('a-voice').value=VOICES[0];$('b-voice').value=VOICES[0];$('a-mode').value='partial';$('b-mode').value='full';for(const id of ['a-voice','b-voice','a-mode','b-mode'])$(id).addEventListener('change',render)}
+  function variant(caseId,side){const voice=$(side+'-voice').value,mode=$(side+'-mode').value;return manifest.variants?.[caseId]?.variants?.[voice]?.[mode]||null}
+  function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+  function ratingKey(c,side){return `${c.id}|${$(side+'-voice').value}|${$(side+'-mode').value}`}
+  function card(c){const av=variant(c.id,'a'),bv=variant(c.id,'b');const ak=ratingKey(c,'a'),bk=ratingKey(c,'b');const ar=ratings[ak]||{},br=ratings[bk]||{},choice=ratings[c.id+'|choice']||{};
+    return `<article class="case" data-id="${c.id}"><div class="case-head"><div><div class="sentence">${esc(c.text)}</div><div class="focus">重點：${esc(c.focus||'')}</div></div><div class="tags">${(c.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></div>
+    <div class="plays"><button class="play a" data-play="a" ${av?.ready?'':'disabled'}>▶ 播放 A</button><button class="play b" data-play="b" ${bv?.ready?'':'disabled'}>▶ 播放 B</button><button class="play web" data-play="web">🔊 Web Speech 基準</button></div>
+    <div class="judge"><div class="judge-box"><strong>A：${esc($('a-voice').selectedOptions[0].text)}・${$('a-mode').value==='partial'?'局部':'全句'}</strong><div class="checks"><label><input type="checkbox" data-rate="correct" data-side="a" ${ar.correct?'checked':''}> 讀音正確</label><label><input type="checkbox" data-rate="natural" data-side="a" ${ar.natural?'checked':''}> 自然</label><label><input type="checkbox" data-rate="usable" data-side="a" ${ar.usable?'checked':''}> 可採用</label></div></div>
+    <div class="judge-box"><strong>B：${esc($('b-voice').selectedOptions[0].text)}・${$('b-mode').value==='partial'?'局部':'全句'}</strong><div class="checks"><label><input type="checkbox" data-rate="correct" data-side="b" ${br.correct?'checked':''}> 讀音正確</label><label><input type="checkbox" data-rate="natural" data-side="b" ${br.natural?'checked':''}> 自然</label><label><input type="checkbox" data-rate="usable" data-side="b" ${br.usable?'checked':''}> 可採用</label></div></div></div>
+    <div class="winner">這一輪：<label><input type="radio" name="win-${c.id}" value="a" ${choice.value==='a'?'checked':''}> A 較好</label><label><input type="radio" name="win-${c.id}" value="b" ${choice.value==='b'?'checked':''}> B 較好</label><label><input type="radio" name="win-${c.id}" value="tie" ${choice.value==='tie'?'checked':''}> 差不多</label></div>
+    <textarea class="note" placeholder="可記錄：哪個字怪、聲調、速度、兒童是否容易聽懂…">${esc(ratings[c.id+'|note']||'')}</textarea></article>`}
+  function render(){ $('cases').innerHTML=cases.map(card).join(''); bindCards(); updateSummary() }
+  function playAzure(c,side){const v=variant(c.id,side);if(!v?.ready)return; if(activeAudio){activeAudio.pause();activeAudio=null} activeAudio=new Audio('../'+v.audio);activeAudio.play().catch(e=>alert('播放失敗：'+e.message))}
+  function playWeb(text){if(!('speechSynthesis'in window))return alert('此瀏覽器沒有 Web Speech');speechSynthesis.cancel();const u=new SpeechSynthesisUtterance('，'+text);u.lang='zh-TW';u.rate=.85;setTimeout(()=>speechSynthesis.speak(u),160)}
+  function bindCards(){document.querySelectorAll('.case').forEach(el=>{const c=cases.find(x=>x.id===el.dataset.id);el.querySelectorAll('[data-play]').forEach(b=>b.addEventListener('click',()=>b.dataset.play==='web'?playWeb(c.text):playAzure(c,b.dataset.play)));el.querySelectorAll('[data-rate]').forEach(i=>i.addEventListener('change',()=>{const k=ratingKey(c,i.dataset.side);ratings[k]={...(ratings[k]||{}),[i.dataset.rate]:i.checked};saveRatings()}));el.querySelectorAll(`input[name="win-${c.id}"]`).forEach(i=>i.addEventListener('change',()=>{ratings[c.id+'|choice']={value:i.value,a:ratingKey(c,'a'),b:ratingKey(c,'b')};saveRatings()}));const ta=el.querySelector('.note');ta.addEventListener('input',()=>{ratings[c.id+'|note']=ta.value;saveRatings()})})}
+  function updateSummary(){let judged=0,a=0,b=0,tie=0;for(const c of cases){const x=ratings[c.id+'|choice'];if(!x)continue;judged++;if(x.value==='a')a++;else if(x.value==='b')b++;else tie++}$('summary').textContent=`已比較 ${judged}/${cases.length} 句｜A 較好 ${a}｜B 較好 ${b}｜差不多 ${tie}`}
+  function status(){const s=manifest.status||'unknown';const el=$('build-status');if(s==='generated'){el.textContent=`Azure MP3 已產生：${manifest.caseCount} 句，預期 ${manifest.variantCountExpected} 個版本；格式 ${manifest.outputFormat||''}，語速 ${manifest.rate||'0%'}`;el.classList.remove('warn')}else{el.textContent=`Azure MP3 尚未就緒（${s}）。頁面與評分工具已可用；設定 Lab repo 的 AZURE_SPEECH_KEY / AZURE_SPEECH_REGION 後執行產生流程即可。`;el.classList.add('warn')}}
+  $('export-btn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),ratings},null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='azure-speech-ab-ratings.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),500)});
+  Promise.all([fetch('./speech-lab/cases.json').then(r=>r.json()),fetch('./speech-lab/generated/manifest.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({status:'manifest_missing',variants:{}}))]).then(([c,m])=>{cases=c.cases||[];manifest=m;setupSelects();status();render()}).catch(e=>{$('build-status').textContent='載入失敗：'+e.message;$('build-status').classList.add('warn')});
+})();
+</script>
+</body>
+</html>
