@@ -1,7 +1,7 @@
 {
   "schema": "hanzi-speech-ab-manifest-v1",
-  "builtAt": "2026-09-17T07:34:38.589233+00:00",
-  "status": "dry_run",
+  "builtAt": "2026-09-17T11:26:13.597106+00:00",
+  "status": "generated",
   "outputFormat": "audio-24khz-48kbitrate-mono-mp3",
   "rate": "0%",
   "voices": [
@@ -25,13 +25,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q01-5f9a4a79cae4.mp3",
             "digest": "5f9a4a79cae4",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">蝴蝶忙<phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>採花蜜</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q01-d7d6d11c49f5.mp3",
             "digest": "d7d6d11c49f5",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄏㄨˊ ㄉㄧㄝˊ ㄇㄤˊ ㄓㄜ˙ ㄘㄞˇ ㄏㄨㄚ ㄇㄧˋ\">蝴蝶忙著採花蜜</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -39,13 +39,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q01-bb98f8bf3ef5.mp3",
             "digest": "bb98f8bf3ef5",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">蝴蝶忙<phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>採花蜜</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q01-234c0e6b29e3.mp3",
             "digest": "234c0e6b29e3",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄏㄨˊ ㄉㄧㄝˊ ㄇㄤˊ ㄓㄜ˙ ㄘㄞˇ ㄏㄨㄚ ㄇㄧˋ\">蝴蝶忙著採花蜜</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -53,13 +53,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q01-bec22ca945f1.mp3",
             "digest": "bec22ca945f1",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">蝴蝶忙<phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>採花蜜</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q01-5f515aa68474.mp3",
             "digest": "5f515aa68474",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄏㄨˊ ㄉㄧㄝˊ ㄇㄤˊ ㄓㄜ˙ ㄘㄞˇ ㄏㄨㄚ ㄇㄧˋ\">蝴蝶忙著採花蜜</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -73,13 +73,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q02-cb94bececbe0.mp3",
             "digest": "cb94bececbe0",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧˇ\">起</phoneme>司<phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄚˊ\">夾</phoneme>進吐司</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q02-b73a8dc7e37a.mp3",
             "digest": "b73a8dc7e37a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧˇ ㄙ ㄐㄧㄚˊ ㄐㄧㄣˋ ㄊㄨˇ ㄙ\">起司夾進吐司</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -87,13 +87,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q02-cb27e18d8155.mp3",
             "digest": "cb27e18d8155",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧˇ\">起</phoneme>司<phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄚˊ\">夾</phoneme>進吐司</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q02-e66ba7678bd8.mp3",
             "digest": "e66ba7678bd8",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧˇ ㄙ ㄐㄧㄚˊ ㄐㄧㄣˋ ㄊㄨˇ ㄙ\">起司夾進吐司</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -101,13 +101,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q02-c8ec630bf2be.mp3",
             "digest": "c8ec630bf2be",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧˇ\">起</phoneme>司<phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄚˊ\">夾</phoneme>進吐司</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q02-6051d5ea3f01.mp3",
             "digest": "6051d5ea3f01",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧˇ ㄙ ㄐㄧㄚˊ ㄐㄧㄣˋ ㄊㄨˇ ㄙ\">起司夾進吐司</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -121,13 +121,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q03-83661dcdcdba.mp3",
             "digest": "83661dcdcdba",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">拍拍手真開心</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q03-e6f3be960700.mp3",
             "digest": "e6f3be960700",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄆㄞ ㄆㄞ ㄕㄡˇ ㄓㄣ ㄎㄞ ㄒㄧㄣ\">拍拍手真開心</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -135,13 +135,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q03-1d5be9436e41.mp3",
             "digest": "1d5be9436e41",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">拍拍手真開心</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q03-0ee3c2c9f89a.mp3",
             "digest": "0ee3c2c9f89a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄆㄞ ㄆㄞ ㄕㄡˇ ㄓㄣ ㄎㄞ ㄒㄧㄣ\">拍拍手真開心</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -149,13 +149,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q03-3fdfd80ab465.mp3",
             "digest": "3fdfd80ab465",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">拍拍手真開心</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q03-d11cc399a02a.mp3",
             "digest": "d11cc399a02a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄆㄞ ㄆㄞ ㄕㄡˇ ㄓㄣ ㄎㄞ ㄒㄧㄣ\">拍拍手真開心</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -169,13 +169,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q04-077803e0235e.mp3",
             "digest": "077803e0235e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">我們一起快<phoneme alphabet=\"sapi\" ph=\"ㄌㄜˋ\">樂</phoneme>唱歌</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q04-ca7b468fcd29.mp3",
             "digest": "ca7b468fcd29",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄇㄣ˙ ㄧ ㄑㄧˇ ㄎㄨㄞˋ ㄌㄜˋ ㄔㄤˋ ㄍㄜ\">我們一起快樂唱歌</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -183,13 +183,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q04-0769102f74eb.mp3",
             "digest": "0769102f74eb",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">我們一起快<phoneme alphabet=\"sapi\" ph=\"ㄌㄜˋ\">樂</phoneme>唱歌</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q04-744eb71559d7.mp3",
             "digest": "744eb71559d7",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄇㄣ˙ ㄧ ㄑㄧˇ ㄎㄨㄞˋ ㄌㄜˋ ㄔㄤˋ ㄍㄜ\">我們一起快樂唱歌</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -197,13 +197,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q04-a25ae704b5db.mp3",
             "digest": "a25ae704b5db",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">我們一起快<phoneme alphabet=\"sapi\" ph=\"ㄌㄜˋ\">樂</phoneme>唱歌</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q04-ef90c3891b2d.mp3",
             "digest": "ef90c3891b2d",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄇㄣ˙ ㄧ ㄑㄧˇ ㄎㄨㄞˋ ㄌㄜˋ ㄔㄤˋ ㄍㄜ\">我們一起快樂唱歌</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -217,13 +217,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q05-d9d953bf757a.mp3",
             "digest": "d9d953bf757a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">他走進銀<phoneme alphabet=\"sapi\" ph=\"ㄏㄤˊ\">行</phoneme>存錢</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q05-091fe4acf379.mp3",
             "digest": "091fe4acf379",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄚ ㄗㄡˇ ㄐㄧㄣˋ ㄧㄣˊ ㄏㄤˊ ㄘㄨㄣˊ ㄑㄧㄢˊ\">他走進銀行存錢</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -231,13 +231,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q05-2325e27bdb5e.mp3",
             "digest": "2325e27bdb5e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">他走進銀<phoneme alphabet=\"sapi\" ph=\"ㄏㄤˊ\">行</phoneme>存錢</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q05-4fea0a0d3a3a.mp3",
             "digest": "4fea0a0d3a3a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄚ ㄗㄡˇ ㄐㄧㄣˋ ㄧㄣˊ ㄏㄤˊ ㄘㄨㄣˊ ㄑㄧㄢˊ\">他走進銀行存錢</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -245,13 +245,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q05-e2154f3e7aa2.mp3",
             "digest": "e2154f3e7aa2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">他走進銀<phoneme alphabet=\"sapi\" ph=\"ㄏㄤˊ\">行</phoneme>存錢</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q05-857ec2e4f87e.mp3",
             "digest": "857ec2e4f87e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄚ ㄗㄡˇ ㄐㄧㄣˋ ㄧㄣˊ ㄏㄤˊ ㄘㄨㄣˊ ㄑㄧㄢˊ\">他走進銀行存錢</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -265,13 +265,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q06-8fcef7e321b1.mp3",
             "digest": "8fcef7e321b1",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">小樹慢慢<phoneme alphabet=\"sapi\" ph=\"ㄓㄤˇ\">長</phoneme>高了</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q06-3ee0fd73f700.mp3",
             "digest": "3ee0fd73f700",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄕㄨˋ ㄇㄢˋ ㄇㄢˋ ㄓㄤˇ ㄍㄠ ㄌㄜ˙\">小樹慢慢長高了</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -279,13 +279,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q06-07cf45558529.mp3",
             "digest": "07cf45558529",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">小樹慢慢<phoneme alphabet=\"sapi\" ph=\"ㄓㄤˇ\">長</phoneme>高了</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q06-46c1e272fd7b.mp3",
             "digest": "46c1e272fd7b",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄕㄨˋ ㄇㄢˋ ㄇㄢˋ ㄓㄤˇ ㄍㄠ ㄌㄜ˙\">小樹慢慢長高了</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -293,13 +293,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q06-5624371a5504.mp3",
             "digest": "5624371a5504",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">小樹慢慢<phoneme alphabet=\"sapi\" ph=\"ㄓㄤˇ\">長</phoneme>高了</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q06-2eee42b861d8.mp3",
             "digest": "2eee42b861d8",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄕㄨˋ ㄇㄢˋ ㄇㄢˋ ㄓㄤˇ ㄍㄠ ㄌㄜ˙\">小樹慢慢長高了</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -313,13 +313,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q07-79eee532513e.mp3",
             "digest": "79eee532513e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">請<phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄥˊ\">重</phoneme>新寫一次</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q07-18ada78ca07b.mp3",
             "digest": "18ada78ca07b",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧㄥˇ ㄔㄨㄥˊ ㄒㄧㄣ ㄒㄧㄝˇ ㄧ ㄘˋ\">請重新寫一次</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -327,13 +327,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q07-e12d3a6c86d8.mp3",
             "digest": "e12d3a6c86d8",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">請<phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄥˊ\">重</phoneme>新寫一次</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q07-d3bcf1f18b29.mp3",
             "digest": "d3bcf1f18b29",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧㄥˇ ㄔㄨㄥˊ ㄒㄧㄣ ㄒㄧㄝˇ ㄧ ㄘˋ\">請重新寫一次</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -341,13 +341,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q07-12357fb57544.mp3",
             "digest": "12357fb57544",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">請<phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄥˊ\">重</phoneme>新寫一次</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q07-075320e08afc.mp3",
             "digest": "075320e08afc",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧㄥˇ ㄔㄨㄥˊ ㄒㄧㄣ ㄒㄧㄝˇ ㄧ ㄘˋ\">請重新寫一次</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -361,13 +361,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q08-5a06ca45f41f.mp3",
             "digest": "5a06ca45f41f",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄏㄞˊ\">還</phoneme>要再看一次</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q08-7a8b9f880ddc.mp3",
             "digest": "7a8b9f880ddc",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄞˊ ㄧㄠˋ ㄗㄞˋ ㄎㄢˋ ㄧ ㄘˋ\">我還要再看一次</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -375,13 +375,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q08-c0f1b1b4029f.mp3",
             "digest": "c0f1b1b4029f",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄏㄞˊ\">還</phoneme>要再看一次</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q08-6178fe018b75.mp3",
             "digest": "6178fe018b75",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄞˊ ㄧㄠˋ ㄗㄞˋ ㄎㄢˋ ㄧ ㄘˋ\">我還要再看一次</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -389,13 +389,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q08-c863a668c69f.mp3",
             "digest": "c863a668c69f",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄏㄞˊ\">還</phoneme>要再看一次</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q08-24bed1006318.mp3",
             "digest": "24bed1006318",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄞˊ ㄧㄠˋ ㄗㄞˋ ㄎㄢˋ ㄧ ㄘˋ\">我還要再看一次</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -409,13 +409,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q09-95f3a607b28e.mp3",
             "digest": "95f3a607b28e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄟˋ\">為</phoneme>了大家一起努力</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q09-711504d80a57.mp3",
             "digest": "711504d80a57",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄟˋ ㄌㄜ˙ ㄉㄚˋ ㄐㄧㄚ ㄧ ㄑㄧˇ ㄋㄨˇ ㄌㄧˋ\">為了大家一起努力</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -423,13 +423,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q09-9f41512b57f8.mp3",
             "digest": "9f41512b57f8",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄟˋ\">為</phoneme>了大家一起努力</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q09-1f7336a786b6.mp3",
             "digest": "1f7336a786b6",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄟˋ ㄌㄜ˙ ㄉㄚˋ ㄐㄧㄚ ㄧ ㄑㄧˇ ㄋㄨˇ ㄌㄧˋ\">為了大家一起努力</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -437,13 +437,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q09-92f97b7833ae.mp3",
             "digest": "92f97b7833ae",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄟˋ\">為</phoneme>了大家一起努力</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q09-76479273a627.mp3",
             "digest": "76479273a627",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄟˋ ㄌㄜ˙ ㄉㄚˋ ㄐㄧㄚ ㄧ ㄑㄧˇ ㄋㄨˇ ㄌㄧˋ\">為了大家一起努力</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -457,13 +457,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q10-1fa12cbb7bf2.mp3",
             "digest": "1fa12cbb7bf2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">他跑<phoneme alphabet=\"sapi\" ph=\"ㄉㄜ˙\">得</phoneme>非常快</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q10-ea950739f1b6.mp3",
             "digest": "ea950739f1b6",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄚ ㄆㄠˇ ㄉㄜ˙ ㄈㄟ ㄔㄤˊ ㄎㄨㄞˋ\">他跑得非常快</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -471,13 +471,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q10-8132a841d5a5.mp3",
             "digest": "8132a841d5a5",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">他跑<phoneme alphabet=\"sapi\" ph=\"ㄉㄜ˙\">得</phoneme>非常快</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q10-82fef9ab1ff2.mp3",
             "digest": "82fef9ab1ff2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄚ ㄆㄠˇ ㄉㄜ˙ ㄈㄟ ㄔㄤˊ ㄎㄨㄞˋ\">他跑得非常快</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -485,13 +485,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q10-353af18a3384.mp3",
             "digest": "353af18a3384",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">他跑<phoneme alphabet=\"sapi\" ph=\"ㄉㄜ˙\">得</phoneme>非常快</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q10-d36bf37a50e7.mp3",
             "digest": "d36bf37a50e7",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄚ ㄆㄠˇ ㄉㄜ˙ ㄈㄟ ㄔㄤˊ ㄎㄨㄞˋ\">他跑得非常快</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -505,13 +505,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q11-a3eefeaf32d4.mp3",
             "digest": "a3eefeaf32d4",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">小貓<phoneme alphabet=\"sapi\" ph=\"ㄘㄤˊ\">藏</phoneme>在箱子裡</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q11-9c746ea57067.mp3",
             "digest": "9c746ea57067",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄇㄠ ㄘㄤˊ ㄗㄞˋ ㄒㄧㄤ ㄗ˙ ㄌㄧˇ\">小貓藏在箱子裡</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -519,13 +519,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q11-28afe0140c04.mp3",
             "digest": "28afe0140c04",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">小貓<phoneme alphabet=\"sapi\" ph=\"ㄘㄤˊ\">藏</phoneme>在箱子裡</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q11-fff22ce6569a.mp3",
             "digest": "fff22ce6569a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄇㄠ ㄘㄤˊ ㄗㄞˋ ㄒㄧㄤ ㄗ˙ ㄌㄧˇ\">小貓藏在箱子裡</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -533,13 +533,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q11-40adcd0bd2bd.mp3",
             "digest": "40adcd0bd2bd",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">小貓<phoneme alphabet=\"sapi\" ph=\"ㄘㄤˊ\">藏</phoneme>在箱子裡</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q11-441fbb8c7d7b.mp3",
             "digest": "441fbb8c7d7b",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄇㄠ ㄘㄤˊ ㄗㄞˋ ㄒㄧㄤ ㄗ˙ ㄌㄧˇ\">小貓藏在箱子裡</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -553,13 +553,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q12-3b5d4adecf09.mp3",
             "digest": "3b5d4adecf09",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">我會<phoneme alphabet=\"sapi\" ph=\"ㄕㄨˇ\">數</phoneme>到十</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q12-e3a432be6896.mp3",
             "digest": "e3a432be6896",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄨㄟˋ ㄕㄨˇ ㄉㄠˋ ㄕˊ\">我會數到十</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -567,13 +567,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q12-0d77ac9bdb93.mp3",
             "digest": "0d77ac9bdb93",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">我會<phoneme alphabet=\"sapi\" ph=\"ㄕㄨˇ\">數</phoneme>到十</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q12-be18ec87f9ff.mp3",
             "digest": "be18ec87f9ff",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄨㄟˋ ㄕㄨˇ ㄉㄠˋ ㄕˊ\">我會數到十</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -581,13 +581,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q12-b4bb856daec2.mp3",
             "digest": "b4bb856daec2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">我會<phoneme alphabet=\"sapi\" ph=\"ㄕㄨˇ\">數</phoneme>到十</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q12-3c99cc4d71f6.mp3",
             "digest": "3c99cc4d71f6",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄨㄟˋ ㄕㄨˇ ㄉㄠˋ ㄕˊ\">我會數到十</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -601,13 +601,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q13-3514b8c931e1.mp3",
             "digest": "3514b8c931e1",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">春天<phoneme alphabet=\"sapi\" ph=\"ㄓㄨㄥˋ\">種</phoneme>下小花</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q13-371a6f8509f3.mp3",
             "digest": "371a6f8509f3",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄣ ㄊㄧㄢ ㄓㄨㄥˋ ㄒㄧㄚˋ ㄒㄧㄠˇ ㄏㄨㄚ\">春天種下小花</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -615,13 +615,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q13-7d842d395c3e.mp3",
             "digest": "7d842d395c3e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">春天<phoneme alphabet=\"sapi\" ph=\"ㄓㄨㄥˋ\">種</phoneme>下小花</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q13-6a359879da02.mp3",
             "digest": "6a359879da02",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄣ ㄊㄧㄢ ㄓㄨㄥˋ ㄒㄧㄚˋ ㄒㄧㄠˇ ㄏㄨㄚ\">春天種下小花</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -629,13 +629,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q13-3a44348a76b4.mp3",
             "digest": "3a44348a76b4",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">春天<phoneme alphabet=\"sapi\" ph=\"ㄓㄨㄥˋ\">種</phoneme>下小花</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q13-81d1e3d65a3a.mp3",
             "digest": "81d1e3d65a3a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄣ ㄊㄧㄢ ㄓㄨㄥˋ ㄒㄧㄚˋ ㄒㄧㄠˇ ㄏㄨㄚ\">春天種下小花</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -649,13 +649,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q14-011bc0ed89a2.mp3",
             "digest": "011bc0ed89a2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">方<phoneme alphabet=\"sapi\" ph=\"ㄅㄧㄢˋ\">便</phoneme>的時候告訴我</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q14-67a9cd8ae181.mp3",
             "digest": "67a9cd8ae181",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄈㄤ ㄅㄧㄢˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄍㄠˋ ㄙㄨˋ ㄨㄛˇ\">方便的時候告訴我</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -663,13 +663,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q14-ed397708d248.mp3",
             "digest": "ed397708d248",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">方<phoneme alphabet=\"sapi\" ph=\"ㄅㄧㄢˋ\">便</phoneme>的時候告訴我</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q14-153d8cbb1498.mp3",
             "digest": "153d8cbb1498",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄈㄤ ㄅㄧㄢˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄍㄠˋ ㄙㄨˋ ㄨㄛˇ\">方便的時候告訴我</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -677,13 +677,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q14-13d8a211b63f.mp3",
             "digest": "13d8a211b63f",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">方<phoneme alphabet=\"sapi\" ph=\"ㄅㄧㄢˋ\">便</phoneme>的時候告訴我</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q14-583943e3e84c.mp3",
             "digest": "583943e3e84c",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄈㄤ ㄅㄧㄢˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄍㄠˋ ㄙㄨˋ ㄨㄛˇ\">方便的時候告訴我</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -697,13 +697,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q15-20bd720ed146.mp3",
             "digest": "20bd720ed146",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄠˊ\">朝</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>太陽向前走</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q15-3a4a96dd21d5.mp3",
             "digest": "3a4a96dd21d5",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄠˊ ㄓㄜ˙ ㄊㄞˋ ㄧㄤˊ ㄒㄧㄤˋ ㄑㄧㄢˊ ㄗㄡˇ\">朝著太陽向前走</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -711,13 +711,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q15-a8fb464740ce.mp3",
             "digest": "a8fb464740ce",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄠˊ\">朝</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>太陽向前走</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q15-22bb7cc3abf8.mp3",
             "digest": "22bb7cc3abf8",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄠˊ ㄓㄜ˙ ㄊㄞˋ ㄧㄤˊ ㄒㄧㄤˋ ㄑㄧㄢˊ ㄗㄡˇ\">朝著太陽向前走</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -725,13 +725,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q15-800ced7b33d4.mp3",
             "digest": "800ced7b33d4",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄠˊ\">朝</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>太陽向前走</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q15-82f9fd24a6a5.mp3",
             "digest": "82f9fd24a6a5",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄔㄠˊ ㄓㄜ˙ ㄊㄞˋ ㄧㄤˊ ㄒㄧㄤˋ ㄑㄧㄢˊ ㄗㄡˇ\">朝著太陽向前走</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -745,13 +745,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q16-7c2f406cc95f.mp3",
             "digest": "7c2f406cc95f",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">我很<phoneme alphabet=\"sapi\" ph=\"ㄏㄠˋ\">好</phoneme>奇答案</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q16-140f5a95e92c.mp3",
             "digest": "140f5a95e92c",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄣˇ ㄏㄠˋ ㄑㄧˊ ㄉㄚˊ ㄢˋ\">我很好奇答案</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -759,13 +759,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q16-3175739551ce.mp3",
             "digest": "3175739551ce",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">我很<phoneme alphabet=\"sapi\" ph=\"ㄏㄠˋ\">好</phoneme>奇答案</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q16-956b0efa3c93.mp3",
             "digest": "956b0efa3c93",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄣˇ ㄏㄠˋ ㄑㄧˊ ㄉㄚˊ ㄢˋ\">我很好奇答案</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -773,13 +773,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q16-07ba46568f05.mp3",
             "digest": "07ba46568f05",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">我很<phoneme alphabet=\"sapi\" ph=\"ㄏㄠˋ\">好</phoneme>奇答案</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q16-b44cf35101fe.mp3",
             "digest": "b44cf35101fe",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄏㄣˇ ㄏㄠˋ ㄑㄧˊ ㄉㄚˊ ㄢˋ\">我很好奇答案</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -793,13 +793,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q17-41d7b9eb2274.mp3",
             "digest": "41d7b9eb2274",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">老師<phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄠ\">教</phoneme>我們寫字</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q17-e85db568af8e.mp3",
             "digest": "e85db568af8e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄌㄠˇ ㄕ ㄐㄧㄠ ㄨㄛˇ ㄇㄣ˙ ㄒㄧㄝˇ ㄗˋ\">老師教我們寫字</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -807,13 +807,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q17-126b6e1dc047.mp3",
             "digest": "126b6e1dc047",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">老師<phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄠ\">教</phoneme>我們寫字</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q17-97c2a630ad58.mp3",
             "digest": "97c2a630ad58",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄌㄠˇ ㄕ ㄐㄧㄠ ㄨㄛˇ ㄇㄣ˙ ㄒㄧㄝˇ ㄗˋ\">老師教我們寫字</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -821,13 +821,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q17-4888f659f8bd.mp3",
             "digest": "4888f659f8bd",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">老師<phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄠ\">教</phoneme>我們寫字</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q17-6d79a7989598.mp3",
             "digest": "6d79a7989598",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄌㄠˇ ㄕ ㄐㄧㄠ ㄨㄛˇ ㄇㄣ˙ ㄒㄧㄝˇ ㄗˋ\">老師教我們寫字</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -841,13 +841,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q18-569f12e69c05.mp3",
             "digest": "569f12e69c05",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">天<phoneme alphabet=\"sapi\" ph=\"ㄎㄨㄥ\">空</phoneme>飄<phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>白雲</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q18-eff90d28dceb.mp3",
             "digest": "eff90d28dceb",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄧㄢ ㄎㄨㄥ ㄆㄧㄠ ㄓㄜ˙ ㄅㄞˊ ㄩㄣˊ\">天空飄著白雲</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -855,13 +855,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q18-9df9e6da5781.mp3",
             "digest": "9df9e6da5781",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">天<phoneme alphabet=\"sapi\" ph=\"ㄎㄨㄥ\">空</phoneme>飄<phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>白雲</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q18-a0f1c55c5cd2.mp3",
             "digest": "a0f1c55c5cd2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄧㄢ ㄎㄨㄥ ㄆㄧㄠ ㄓㄜ˙ ㄅㄞˊ ㄩㄣˊ\">天空飄著白雲</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -869,13 +869,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q18-d1b94cdda33f.mp3",
             "digest": "d1b94cdda33f",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">天<phoneme alphabet=\"sapi\" ph=\"ㄎㄨㄥ\">空</phoneme>飄<phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>白雲</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q18-ddb9bde86823.mp3",
             "digest": "ddb9bde86823",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄊㄧㄢ ㄎㄨㄥ ㄆㄧㄠ ㄓㄜ˙ ㄅㄞˊ ㄩㄣˊ\">天空飄著白雲</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -889,13 +889,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q19-8f0053eac3cd.mp3",
             "digest": "8f0053eac3cd",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄅㄟ\">背</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>書包上學</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q19-cc97e79086ff.mp3",
             "digest": "cc97e79086ff",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄅㄟ ㄓㄜ˙ ㄕㄨ ㄅㄠ ㄕㄤˋ ㄒㄩㄝˊ\">我背著書包上學</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -903,13 +903,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q19-f9e5665104b7.mp3",
             "digest": "f9e5665104b7",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄅㄟ\">背</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>書包上學</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q19-1c592815e206.mp3",
             "digest": "1c592815e206",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄅㄟ ㄓㄜ˙ ㄕㄨ ㄅㄠ ㄕㄤˋ ㄒㄩㄝˊ\">我背著書包上學</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -917,13 +917,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q19-2f15ae7ee88e.mp3",
             "digest": "2f15ae7ee88e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄅㄟ\">背</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄓㄜ˙\">著</phoneme>書包上學</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q19-fc3a4eb300ae.mp3",
             "digest": "fc3a4eb300ae",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄅㄟ ㄓㄜ˙ ㄕㄨ ㄅㄠ ㄕㄤˋ ㄒㄩㄝˊ\">我背著書包上學</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -937,13 +937,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q20-4f0d86812fc5.mp3",
             "digest": "4f0d86812fc5",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">爺爺<phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄢˊ\">傳</phoneme>給我一本書</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q20-bf5f92f90590.mp3",
             "digest": "bf5f92f90590",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ ㄧㄝ˙ ㄔㄨㄢˊ ㄍㄟˇ ㄨㄛˇ ㄧ ㄅㄣˇ ㄕㄨ\">爺爺傳給我一本書</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -951,13 +951,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q20-e86d80e87a0e.mp3",
             "digest": "e86d80e87a0e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">爺爺<phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄢˊ\">傳</phoneme>給我一本書</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q20-44015198b710.mp3",
             "digest": "44015198b710",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ ㄧㄝ˙ ㄔㄨㄢˊ ㄍㄟˇ ㄨㄛˇ ㄧ ㄅㄣˇ ㄕㄨ\">爺爺傳給我一本書</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -965,13 +965,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q20-63a383e1c965.mp3",
             "digest": "63a383e1c965",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">爺爺<phoneme alphabet=\"sapi\" ph=\"ㄔㄨㄢˊ\">傳</phoneme>給我一本書</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q20-47eb194efbd6.mp3",
             "digest": "47eb194efbd6",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ ㄧㄝ˙ ㄔㄨㄢˊ ㄍㄟˇ ㄨㄛˇ ㄧ ㄅㄣˇ ㄕㄨ\">爺爺傳給我一本書</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -985,13 +985,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q21-210eaf0b7a5a.mp3",
             "digest": "210eaf0b7a5a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄉㄚ\">答</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄧㄥˋ\">應</phoneme>明天再來</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q21-8703c1b51640.mp3",
             "digest": "8703c1b51640",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄉㄚ ㄧㄥˋ ㄇㄧㄥˊ ㄊㄧㄢ ㄗㄞˋ ㄌㄞˊ\">我答應明天再來</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -999,13 +999,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q21-dcea00e91c46.mp3",
             "digest": "dcea00e91c46",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄉㄚ\">答</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄧㄥˋ\">應</phoneme>明天再來</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q21-c3035dfc3605.mp3",
             "digest": "c3035dfc3605",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄉㄚ ㄧㄥˋ ㄇㄧㄥˊ ㄊㄧㄢ ㄗㄞˋ ㄌㄞˊ\">我答應明天再來</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -1013,13 +1013,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q21-327623e6255a.mp3",
             "digest": "327623e6255a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">我<phoneme alphabet=\"sapi\" ph=\"ㄉㄚ\">答</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄧㄥˋ\">應</phoneme>明天再來</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q21-755a908974b1.mp3",
             "digest": "755a908974b1",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄉㄚ ㄧㄥˋ ㄇㄧㄥˊ ㄊㄧㄢ ㄗㄞˋ ㄌㄞˊ\">我答應明天再來</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -1033,13 +1033,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q22-599c19ddcb54.mp3",
             "digest": "599c19ddcb54",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">大家互<phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄤ\">相</phoneme>幫忙</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q22-fe3f3b5531ab.mp3",
             "digest": "fe3f3b5531ab",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄚˋ ㄐㄧㄚ ㄏㄨˋ ㄒㄧㄤ ㄅㄤ ㄇㄤˊ\">大家互相幫忙</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -1047,13 +1047,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q22-6ffc977279a8.mp3",
             "digest": "6ffc977279a8",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">大家互<phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄤ\">相</phoneme>幫忙</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q22-ef2f36e276e0.mp3",
             "digest": "ef2f36e276e0",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄚˋ ㄐㄧㄚ ㄏㄨˋ ㄒㄧㄤ ㄅㄤ ㄇㄤˊ\">大家互相幫忙</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -1061,13 +1061,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q22-76ab15114c72.mp3",
             "digest": "76ab15114c72",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">大家互<phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄤ\">相</phoneme>幫忙</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q22-04f838fc1af8.mp3",
             "digest": "04f838fc1af8",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄚˋ ㄐㄧㄚ ㄏㄨˋ ㄒㄧㄤ ㄅㄤ ㄇㄤˊ\">大家互相幫忙</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -1081,13 +1081,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q23-84e642eff4ee.mp3",
             "digest": "84e642eff4ee",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">請把音量<phoneme alphabet=\"sapi\" ph=\"ㄊㄧㄠˊ\">調</phoneme>小一點</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q23-7b2233d76bf2.mp3",
             "digest": "7b2233d76bf2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧㄥˇ ㄅㄚˇ ㄧㄣ ㄌㄧㄤˋ ㄊㄧㄠˊ ㄒㄧㄠˇ ㄧ ㄉㄧㄢˇ\">請把音量調小一點</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -1095,13 +1095,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q23-1e81d3165978.mp3",
             "digest": "1e81d3165978",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">請把音量<phoneme alphabet=\"sapi\" ph=\"ㄊㄧㄠˊ\">調</phoneme>小一點</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q23-f7245d291fa7.mp3",
             "digest": "f7245d291fa7",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧㄥˇ ㄅㄚˇ ㄧㄣ ㄌㄧㄤˋ ㄊㄧㄠˊ ㄒㄧㄠˇ ㄧ ㄉㄧㄢˇ\">請把音量調小一點</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -1109,13 +1109,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q23-1d336d614b4b.mp3",
             "digest": "1d336d614b4b",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">請把音量<phoneme alphabet=\"sapi\" ph=\"ㄊㄧㄠˊ\">調</phoneme>小一點</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q23-ca4a777b579b.mp3",
             "digest": "ca4a777b579b",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄑㄧㄥˇ ㄅㄚˇ ㄧㄣ ㄌㄧㄤˋ ㄊㄧㄠˊ ㄒㄧㄠˇ ㄧ ㄉㄧㄢˇ\">請把音量調小一點</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -1129,13 +1129,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q24-99557d436445.mp3",
             "digest": "99557d436445",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">弟弟不小心跌<phoneme alphabet=\"sapi\" ph=\"ㄉㄠˇ\">倒</phoneme>了</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q24-f9d663a2759e.mp3",
             "digest": "f9d663a2759e",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ ㄉㄧ˙ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄉㄧㄝ ㄉㄠˇ ㄌㄜ˙\">弟弟不小心跌倒了</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -1143,13 +1143,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q24-64fc2e223427.mp3",
             "digest": "64fc2e223427",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">弟弟不小心跌<phoneme alphabet=\"sapi\" ph=\"ㄉㄠˇ\">倒</phoneme>了</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q24-df5cbdc39e78.mp3",
             "digest": "df5cbdc39e78",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ ㄉㄧ˙ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄉㄧㄝ ㄉㄠˇ ㄌㄜ˙\">弟弟不小心跌倒了</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -1157,13 +1157,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q24-541280494976.mp3",
             "digest": "541280494976",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">弟弟不小心跌<phoneme alphabet=\"sapi\" ph=\"ㄉㄠˇ\">倒</phoneme>了</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q24-0b9d789033f6.mp3",
             "digest": "0b9d789033f6",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ ㄉㄧ˙ ㄅㄨˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄉㄧㄝ ㄉㄠˇ ㄌㄜ˙\">弟弟不小心跌倒了</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -1177,13 +1177,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q25-d78788c60028.mp3",
             "digest": "d78788c60028",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">我不會忘記你</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q25-9b5796d07b11.mp3",
             "digest": "9b5796d07b11",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄅㄨˋ ㄏㄨㄟˋ ㄨㄤˋ ㄐㄧˋ ㄋㄧˇ\">我不會忘記你</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -1191,13 +1191,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q25-3eba18735eec.mp3",
             "digest": "3eba18735eec",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">我不會忘記你</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q25-adfa6e348ce2.mp3",
             "digest": "adfa6e348ce2",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄅㄨˋ ㄏㄨㄟˋ ㄨㄤˋ ㄐㄧˋ ㄋㄧˇ\">我不會忘記你</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -1205,13 +1205,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q25-e528d2bbf0f0.mp3",
             "digest": "e528d2bbf0f0",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">我不會忘記你</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q25-65db65fe7673.mp3",
             "digest": "65db65fe7673",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄨㄛˇ ㄅㄨˋ ㄏㄨㄟˋ ㄨㄤˋ ㄐㄧˋ ㄋㄧˇ\">我不會忘記你</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
@@ -1225,13 +1225,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q26-6e72a3139811.mp3",
             "digest": "6e72a3139811",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">一個孩子跑過來</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q26-7bd66537a71f.mp3",
             "digest": "7bd66537a71f",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄆㄠˇ ㄍㄨㄛˋ ㄌㄞˊ\">一個孩子跑過來</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-HsiaoYuNeural": {
@@ -1239,13 +1239,13 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q26-35572d4da6c4.mp3",
             "digest": "35572d4da6c4",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">一個孩子跑過來</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q26-a1762abc8d25.mp3",
             "digest": "a1762abc8d25",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄆㄠˇ ㄍㄨㄛˋ ㄌㄞˊ\">一個孩子跑過來</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         },
         "zh-TW-YunJheNeural": {
@@ -1253,18 +1253,18 @@
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q26-12fc0045f4bd.mp3",
             "digest": "12fc0045f4bd",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">一個孩子跑過來</prosody></voice></speak>",
-            "ready": false
+            "ready": true
           },
           "full": {
             "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q26-bb33a1c6d73a.mp3",
             "digest": "bb33a1c6d73a",
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧ ㄍㄜˋ ㄏㄞˊ ㄗ˙ ㄆㄠˇ ㄍㄨㄛˋ ㄌㄞˊ\">一個孩子跑過來</phoneme></prosody></voice></speak>",
-            "ready": false
+            "ready": true
           }
         }
       }
     }
   },
-  "generatedNow": 0,
+  "generatedNow": 156,
   "reused": 0
 }
