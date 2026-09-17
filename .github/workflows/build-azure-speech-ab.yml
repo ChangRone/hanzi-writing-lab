@@ -1,5 +1,7 @@
 name: Build Azure Speech A/B assets
 
+# This workflow is the repeatable Lab entry point after Azure Speech repository secrets are configured.
+
 on:
   workflow_dispatch:
   push:
