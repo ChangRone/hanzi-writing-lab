@@ -4,20 +4,41 @@
 
 ## 1. 專案角色
 
-`hanzi-writing-lab` 是字形資料的**轉換、檢查、修正與 QA 工具**；不是兒童端正式 Quiz。
+`hanzi-writing-lab` 是正式 Quiz 上線前的**轉換、檢查、修正、QA 與實驗工具 repository**；不是兒童端正式 Quiz。
 
-主要工具：
+目前主要工具：
 
-- `tools/d1-font-lab.html`
+- 字形資料：`tools/d1-font-lab.html`
+- 語音 A/B：`tools/azure-speech-ab.html`
+- 語音產物邏輯：`tools/speech-lab/`
 - 線上入口：`https://changrone.github.io/hanzi-writing-lab/`
 
 下游正式使用者：
 
-- `hanzi-quiz/char-data/{字}.json`
+- 字形：`hanzi-quiz/char-data/{字}.json`
+- 語音：未來核准後由 `hanzi-quiz` 使用 Lab 預產的 MP3；正式 Quiz 不應持有 Azure Speech key。
 
 目前 Lab repository **沒有正式 `char-data/` / `char-data-overrides/` 目錄**；不要依舊 README 或頁面文字誤判。
 
-## 2. 修改前必讀
+### Speech Lab 邊界
+
+使用者已決定：未來 Azure Speech 的 SSML／MP3 產生與 A/B 驗收邏輯可以放在 Lab repo。
+
+目前策略：
+
+```text
+resolved tokens[].zhuyin
+ → Lab 產 SSML
+ → Azure zh-TW Speech
+ → 預產 MP3 / content hash
+ → A/B 人工實聽核准
+ → Quiz 優先播放 MP3
+ → MP3 不可用時 Web Speech fallback
+```
+
+正式導入 Quiz 前，先在 `tools/azure-speech-ab.html` 驗證 voice、partial/full phoneme 與自然度。語音工具規則見 `tools/speech-lab/README.md`。
+
+## 2. 修改字形資料前必讀
 
 ### Canonical 資料轉換契約
 
@@ -59,7 +80,7 @@
 6. `radStrokes` 沒有可靠來源時用 `[]`，不可猜。
 7. source / debug / QA metadata 不屬於目前正式 runtime JSON。
 
-## 4. 目前來源
+## 4. 目前字形來源
 
 - 主要 D1：`g0v/zh-stroke-data@master/utf8/{hex}.xml`
 - 備援 D1：`zh-stroke-data@0.0.75/utf8/{hex}.xml`
@@ -75,7 +96,7 @@ official radStrokes → radStrokes[]（相容時）
 
 **Outline 不等於 median。**
 
-## 5. 現行驗證基準
+## 5. 現行字形驗證基準
 
 有效 containment 邏輯是：
 
@@ -92,7 +113,7 @@ Containment PASS 只表示 median 沒有大量離開 stroke fill，不代表：
 
 使用 fallback / rematch / 手工修 median 的字，應視為需要更高層 review 的 Candidate。
 
-## 6. 新資料來源的正確接法
+## 6. 新字形資料來源的正確接法
 
 ```text
 Raw Source
@@ -123,16 +144,18 @@ Raw Source
 - 不要把 fallback 當 Approved。
 - 不要只改大型 HTML 前段的舊函式；檔尾可能有 effective patch 覆寫。
 - 不要在沒有回歸驗證時重構 `tools/d1-font-lab.html`。
-- 不要假設 Lab 已能自動 commit 到 Quiz；現況仍是下載後人工提交。
+- 不要假設 Lab 已能自動 commit 字形資料到 Quiz；現況仍是下載後人工提交。
+- 不要把 Azure Speech key / region 寫進公開 HTML、JSON 或正式 Quiz；只允許透過環境變數／GitHub Actions secrets 使用。
+- 不要把 Speech Lab 的實驗音檔直接視為正式教材音檔；必須經 A/B 實聽與讀音 QA。
 
 ## 8. 文件優先序
 
 發生描述衝突時，按以下順序判斷：
 
 1. 使用者最新明確決策
-2. `docs/DATA_TRANSFORMATION_CONTRACT.md`
+2. 對應領域 canonical 文件：字形為 `docs/DATA_TRANSFORMATION_CONTRACT.md`；語音為 `tools/speech-lab/README.md`
 3. `AGENTS.md`
-4. 目前實際生效的 `tools/d1-font-lab.html`
+4. 目前實際生效的工具程式
 5. `README.md`
 6. 歷史討論／舊盤點文件
 
