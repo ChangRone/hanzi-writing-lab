@@ -1,0 +1,10 @@
+{
+  "schema": "hanzi-speech-ab-manifest-v1",
+  "builtAt": null,
+  "status": "pending_first_build",
+  "voices": ["zh-TW-HsiaoChenNeural", "zh-TW-HsiaoYuNeural", "zh-TW-YunJheNeural"],
+  "modes": ["partial", "full"],
+  "caseCount": 26,
+  "variantCountExpected": 156,
+  "variants": {}
+}
