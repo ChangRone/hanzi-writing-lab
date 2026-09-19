@@ -1,0 +1,83 @@
+name: Build production Quiz Azure Speech
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/speech-lab/build_quiz_production_audio.py'
+      - 'tools/speech-lab/cases.json'
+      - '.github/workflows/build-quiz-production-audio.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quiz-production-audio
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+      AZURE_TTS_MIN_INTERVAL: '3.2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout current production Quiz source
+        run: |
+          rm -rf .cache/hanzi-quiz
+          git clone --depth 1 https://github.com/ChangRone/hanzi-quiz.git .cache/hanzi-quiz
+
+      - name: Preflight production audio mapping
+        run: |
+          python3 tools/speech-lab/build_quiz_production_audio.py --dry-run
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('production-audio/v1/manifest.json').read_text(encoding='utf-8'))
+          assert m['voice']=='zh-TW-HsiaoChenNeural'
+          assert m['mode']=='verified-partial'
+          assert m['rate']=='-12%'
+          assert m['questionCount'] > 0
+          assert len(m['questions']) == m['questionCount']
+          print('PRODUCTION_AUDIO_PREFLIGHT=PASS questions=', m['questionCount'])
+          PY
+
+      - name: Build Azure production MP3
+        run: |
+          test -n "$AZURE_SPEECH_KEY"
+          test -n "$AZURE_SPEECH_REGION"
+          python3 tools/speech-lab/build_quiz_production_audio.py
+
+      - name: Validate all audio
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('production-audio/v1/manifest.json').read_text(encoding='utf-8'))
+          missing=[]
+          for qid,item in m['questions'].items():
+              p=Path(item['audio'])
+              if not item['ready'] or not p.exists() or p.stat().st_size < 500:
+                  missing.append(qid)
+          assert not missing, missing[:20]
+          assert len(m['questions']) == m['questionCount']
+          print('PRODUCTION_AUDIO_VALIDATE=PASS questions=',m['questionCount'],'generated=',m['generatedNow'],'reused=',m['reused'],'requests=',m['azureRequests'])
+          PY
+          git diff --check
+
+      - name: Commit production audio
+        run: |
+          if git diff --quiet -- production-audio/v1; then
+            echo 'No production audio changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add production-audio/v1
+          git commit -m 'build production Quiz Azure Speech audio'
+          git push
