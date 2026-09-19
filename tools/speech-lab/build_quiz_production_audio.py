@@ -288,9 +288,9 @@ def build(args: argparse.Namespace) -> int:
     reused = 0
     requests = 0
     last_request_at = 0.0
+    pending: list[tuple[str, dict]] = []
 
-    for pack_index, (rel, questions) in enumerate(groups, 1):
-        pending: list[dict] = []
+    for rel, questions in groups:
         for q in questions:
             qid = str(q["id"])
             digest = digest_question(q, force_pairs)
@@ -307,43 +307,48 @@ def build(args: argparse.Namespace) -> int:
             if ready:
                 reused += 1
             else:
-                pending.append(q)
+                pending.append((rel, q))
 
-        if pending and not args.dry_run:
+    total_batches = (len(pending) + args.batch_size - 1) // args.batch_size if pending else 0
+    for offset in range(0, len(pending), args.batch_size):
+        batch_pairs = pending[offset:offset + args.batch_size]
+        batch_questions = [q for _, q in batch_pairs]
+        if not args.dry_run:
             elapsed = time.monotonic() - last_request_at
             if requests and elapsed < args.min_interval:
                 time.sleep(args.min_interval - elapsed)
-            ssml = make_ssml(pending, force_pairs)
+            ssml = make_ssml(batch_questions, force_pairs)
             wav_bytes = synthesize_retry(ssml, key, region)
             last_request_at = time.monotonic()
             requests += 1
-            params, chunks = split_wav(wav_bytes, len(pending))
-            for q, chunk in zip(pending, chunks):
+            params, chunks = split_wav(wav_bytes, len(batch_questions))
+            for (_, q), chunk in zip(batch_pairs, chunks):
                 dest = out / "audio" / f"{q['id']}.mp3"
                 write_mp3(params, chunk, dest)
                 generated += 1
                 manifest["questions"][str(q["id"])]["ready"] = True
-
-        print(f"[{pack_index}/{len(groups)}] {rel}: pending={len(pending)}")
+        batch_no = offset // args.batch_size + 1
+        print(f"[batch {batch_no}/{total_batches}] questions={len(batch_questions)}")
 
     manifest["generatedNow"] = generated
     manifest["reused"] = reused
     manifest["azureRequests"] = requests
+    manifest["batchSize"] = args.batch_size
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     if not args.dry_run:
         ready = [x for x in manifest["questions"].values() if x["ready"]]
         if len(ready) != total_questions:
             raise RuntimeError(f"Only {len(ready)}/{total_questions} audio files ready")
-    print(json.dumps({"questions": total_questions, "generated": generated, "reused": reused, "requests": requests, "dryRun": args.dry_run}, ensure_ascii=False))
+    print(json.dumps({"questions": total_questions, "generated": generated, "reused": reused, "requests": requests, "batchSize": args.batch_size, "dryRun": args.dry_run}, ensure_ascii=False))
     return 0
-
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("--quiz", type=Path, default=DEFAULT_QUIZ)
     p.add_argument("--output", type=Path, default=DEFAULT_OUT)
     p.add_argument("--min-interval", type=float, default=MIN_REQUEST_INTERVAL)
+    p.add_argument("--batch-size", type=int, default=int(os.environ.get("AZURE_TTS_BATCH_SIZE", "20")))
     p.add_argument("--dry-run", action="store_true")
     return p.parse_args()
 
