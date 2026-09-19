@@ -97,3 +97,15 @@ A/B 頁的勾選與文字評語儲存在瀏覽器 `localStorage`，也可匯出 
 3. `聽整句` 優先播放預產 MP3。
 4. MP3 不存在／載入失敗才 fallback 到 Web Speech。
 5. Azure key 永遠不進兒童端網頁。
+
+
+## 正式 Quiz 語音
+
+A/B 驗收完成後的正式 production pipeline、保存規則、事故紀錄與重現方式，請以：
+
+- `../../production-audio/DECISION.md`
+- `../../production-audio/REPRODUCIBILITY.md`
+
+為準。
+
+正式 MP3 必須同時保存於 Lab 與 Quiz；Lab 負責生成／驗證／稽核，Quiz 保存 runtime 自有副本，不依賴跨 repo 線上播放。
