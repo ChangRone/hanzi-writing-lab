@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import array
 import hashlib
+import http.client
 import json
 import os
 import subprocess
@@ -137,10 +138,12 @@ def synthesize_retry(ssml: str, key: str, region: str, retries: int = 6) -> byte
             wait = float(retry_after) if retry_after and retry_after.isdigit() else min(8 * (attempt + 1), 40)
             print(f"retry HTTP {exc.code} after {wait:.1f}s", file=sys.stderr)
             time.sleep(wait)
-        except urllib.error.URLError as exc:
+        except (urllib.error.URLError, http.client.IncompleteRead) as exc:
             if attempt == retries - 1:
                 raise RuntimeError(f"Azure TTS network error: {exc}") from exc
-            time.sleep(min(3 * (attempt + 1), 20))
+            wait = min(3 * (attempt + 1), 20)
+            print(f"retry network read after {wait:.1f}s: {type(exc).__name__}", file=sys.stderr)
+            time.sleep(wait)
     raise RuntimeError("unreachable")
 
 
