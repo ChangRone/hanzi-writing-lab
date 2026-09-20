@@ -4,6 +4,13 @@
   "mode": "verified-partial",
   "rate": "-12%",
   "sourceRepo": "ChangRone/hanzi-quiz",
+  "sourceQuizCommit": "bf0c03d40aaf628278b24b770b17621ee6f06601",
+  "forceSetHash": "e9bd29ba1d03ebcc8d16bfb0a9001e302198e7f99895e65d5f753a5bdf8404e2",
+  "builderHash": "395cb43c4722e75acf5719343c9db30cc5fb4d752b7a3fb341eaa428d5b1282e",
+  "audioBuildId": "229fd190ef579a06",
+  "pcmFormat": "riff-24khz-16bit-mono-pcm",
+  "mp3Bitrate": "48k",
+  "breakMs": 2500,
   "questionCount": 2070,
   "questions": {
     "202520110101": {
@@ -14497,8 +14504,8 @@
       "ready": true
     }
   },
-  "generatedNow": 2070,
-  "reused": 0,
-  "azureRequests": 104,
+  "generatedNow": 0,
+  "reused": 2070,
+  "azureRequests": 0,
   "batchSize": 20
 }
