@@ -261,6 +261,21 @@ def existing_manifest(out: Path) -> dict:
         return {}
 
 
+def file_sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def git_head(repo: Path) -> str:
+    value = subprocess.check_output(
+        ["git", "-C", str(repo), "rev-parse", "HEAD"],
+        text=True,
+        timeout=15,
+    ).strip()
+    if len(value) != 40:
+        raise RuntimeError(f"Invalid git HEAD for {repo}: {value!r}")
+    return value
+
+
 def build(args: argparse.Namespace) -> int:
     quiz = args.quiz.resolve()
     out = args.output.resolve()
@@ -274,12 +289,37 @@ def build(args: argparse.Namespace) -> int:
     if not args.dry_run and not (key and region):
         raise RuntimeError("AZURE_SPEECH_KEY/AZURE_SPEECH_REGION are required")
 
+    source_quiz_commit = git_head(quiz)
+    force_set_hash = file_sha256(CASES)
+    builder_hash = file_sha256(Path(__file__).resolve())
+    audio_build_payload = {
+        "sourceQuizCommit": source_quiz_commit,
+        "forceSetHash": force_set_hash,
+        "builderHash": builder_hash,
+        "voice": VOICE,
+        "mode": MODE,
+        "rate": RATE,
+        "pcmFormat": PCM_FORMAT,
+        "mp3Bitrate": MP3_BITRATE,
+        "breakMs": BREAK_MS,
+    }
+    audio_build_id = hashlib.sha256(
+        json.dumps(audio_build_payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    ).hexdigest()[:16]
+
     manifest = {
         "schema": "hanzi-quiz-production-audio-v1",
         "voice": VOICE,
         "mode": MODE,
         "rate": RATE,
         "sourceRepo": "ChangRone/hanzi-quiz",
+        "sourceQuizCommit": source_quiz_commit,
+        "forceSetHash": force_set_hash,
+        "builderHash": builder_hash,
+        "audioBuildId": audio_build_id,
+        "pcmFormat": PCM_FORMAT,
+        "mp3Bitrate": MP3_BITRATE,
+        "breakMs": BREAK_MS,
         "questionCount": total_questions,
         "questions": {},
     }
