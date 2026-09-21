@@ -49,10 +49,11 @@ jobs:
           from pathlib import Path
           p = Path('tools/speech-lab/generated/manifest.json')
           m = json.loads(p.read_text(encoding='utf-8'))
-          assert m['caseCount'] == 26
-          assert m['variantCountExpected'] == 156
+          assert m['caseCount'] > 0
           assert m['modes'] == ['partial', 'full']
           assert len(m['voices']) == 3
+          expected = m['caseCount'] * len(m['voices']) * len(m['modes'])
+          assert m['variantCountExpected'] == expected
           if m['status'] == 'generated':
               ready = 0
               for case in m['variants'].values():
@@ -62,7 +63,7 @@ jobs:
                           f = Path(variant['audio'])
                           assert f.exists() and f.stat().st_size > 500
                           ready += 1
-              assert ready == 156, ready
+              assert ready == expected, (ready, expected)
           print('manifest validation OK:', m['status'])
           PY
           git diff --check
@@ -79,4 +80,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add tools/speech-lab/generated
           git commit -m 'build Azure Speech A/B audio assets'
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
