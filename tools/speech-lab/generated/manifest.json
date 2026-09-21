@@ -1,6 +1,6 @@
 {
   "schema": "hanzi-speech-ab-manifest-v1",
-  "builtAt": "2026-09-17T11:26:13.597106+00:00",
+  "builtAt": "2026-09-21T12:02:01.213563+00:00",
   "status": "generated",
   "outputFormat": "audio-24khz-48kbitrate-mono-mp3",
   "rate": "0%",
@@ -1265,6 +1265,6 @@
       }
     }
   },
-  "generatedNow": 156,
-  "reused": 0
+  "generatedNow": 0,
+  "reused": 156
 }
