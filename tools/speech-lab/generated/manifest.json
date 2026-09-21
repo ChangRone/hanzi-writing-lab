@@ -1,6 +1,6 @@
 {
   "schema": "hanzi-speech-ab-manifest-v1",
-  "builtAt": "2026-09-21T12:02:01.213563+00:00",
+  "builtAt": "2026-09-21T21:34:06.399742+00:00",
   "status": "generated",
   "outputFormat": "audio-24khz-48kbitrate-mono-mp3",
   "rate": "0%",
@@ -13,8 +13,8 @@
     "partial",
     "full"
   ],
-  "caseCount": 26,
-  "variantCountExpected": 156,
+  "caseCount": 27,
+  "variantCountExpected": 162,
   "variants": {
     "q01": {
       "text": "蝴蝶忙著採花蜜",
@@ -1263,8 +1263,56 @@
           }
         }
       }
+    },
+    "q27": {
+      "text": "小巷裡叔叔養貓",
+      "focus": "叔叔 ㄕㄨˊ・ㄕㄨ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q27-adc2d662cc23.mp3",
+            "digest": "adc2d662cc23",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\">小巷裡<phoneme alphabet=\"sapi\" ph=\"ㄕㄨˊ\">叔</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄕㄨ˙\">叔</phoneme>養貓</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q27-b1957c5f5132.mp3",
+            "digest": "b1957c5f5132",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄒㄧㄤˋ ㄌㄧˇ ㄕㄨˊ ㄕㄨ˙ ㄧㄤˇ ㄇㄠ\">小巷裡叔叔養貓</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q27-f73f6249c7b3.mp3",
+            "digest": "f73f6249c7b3",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\">小巷裡<phoneme alphabet=\"sapi\" ph=\"ㄕㄨˊ\">叔</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄕㄨ˙\">叔</phoneme>養貓</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q27-978103190fc5.mp3",
+            "digest": "978103190fc5",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄒㄧㄤˋ ㄌㄧˇ ㄕㄨˊ ㄕㄨ˙ ㄧㄤˇ ㄇㄠ\">小巷裡叔叔養貓</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q27-85df11d44fe5.mp3",
+            "digest": "85df11d44fe5",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\">小巷裡<phoneme alphabet=\"sapi\" ph=\"ㄕㄨˊ\">叔</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄕㄨ˙\">叔</phoneme>養貓</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q27-e36fb5868f3c.mp3",
+            "digest": "e36fb5868f3c",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄒㄧㄠˇ ㄒㄧㄤˋ ㄌㄧˇ ㄕㄨˊ ㄕㄨ˙ ㄧㄤˇ ㄇㄠ\">小巷裡叔叔養貓</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
     }
   },
-  "generatedNow": 0,
+  "generatedNow": 6,
   "reused": 156
 }
