@@ -44,6 +44,14 @@ BREAK_MS = 2500
 MIN_REQUEST_INTERVAL = float(os.environ.get("AZURE_TTS_MIN_INTERVAL", "3.2"))
 USER_AGENT = "hanzi-writing-lab-production-speech/1.0"
 
+FORCE_REBUILD_REVISIONS = {
+    "202620200301": "uncle-neutral-tone-v1",
+    "202620200310": "uncle-neutral-tone-v1",
+    "202610301201": "uncle-neutral-tone-v1",
+    "202610301204": "uncle-neutral-tone-v1",
+    "202610301209": "uncle-neutral-tone-v1",
+}
+
 
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -104,6 +112,7 @@ def digest_question(q: dict, force_pairs: set[tuple[str, str]]) -> str:
         "mode": MODE,
         "rate": RATE,
         "format": "mp3-48k",
+        "rebuildRevision": FORCE_REBUILD_REVISIONS.get(str(q["id"]), ""),
     }
     raw = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
@@ -251,6 +260,40 @@ def load_questions(quiz_root: Path) -> tuple[list[tuple[str, list[dict]]], int]:
     return groups, total
 
 
+def validate_uncle_neutral_tone(groups: list[tuple[str, list[dict]]], force_pairs: set[tuple[str, str]]) -> int:
+    expected = [("叔", "ㄕㄨˊ"), ("叔", "ㄕㄨ˙")]
+    if not all(pair in force_pairs for pair in expected):
+        raise RuntimeError("Production force set must include 叔 ㄕㄨˊ and 叔 ㄕㄨ˙")
+
+    matched = 0
+    for rel, questions in groups:
+        for q in questions:
+            text = str(q.get("readText", ""))
+            if "叔叔" not in text:
+                continue
+            tokens = q.get("tokens") or []
+            found = False
+            for i in range(len(tokens) - 1):
+                pair = [
+                    (str(tokens[i].get("char", "")), str(tokens[i].get("zhuyin", ""))),
+                    (str(tokens[i + 1].get("char", "")), str(tokens[i + 1].get("zhuyin", ""))),
+                ]
+                if pair == expected:
+                    found = True
+                    break
+            if not found:
+                raise RuntimeError(f"{q.get('id')}: 叔叔 must resolve to ㄕㄨˊ + ㄕㄨ˙ in {rel}")
+            body = sentence_body(q, force_pairs)
+            required = '<phoneme alphabet="sapi" ph="ㄕㄨˊ">叔</phoneme><phoneme alphabet="sapi" ph="ㄕㄨ˙">叔</phoneme>'
+            if required not in body:
+                raise RuntimeError(f"{q.get('id')}: production SSML does not force correct 叔叔 reading")
+            matched += 1
+    if matched == 0:
+        raise RuntimeError("No production Quiz questions containing 叔叔 were found")
+    print(f"UNCLE_NEUTRAL_TONE_REGRESSION=PASS questions={matched}")
+    return matched
+
+
 def existing_manifest(out: Path) -> dict:
     p = out / "manifest.json"
     if not p.exists():
@@ -281,6 +324,7 @@ def build(args: argparse.Namespace) -> int:
     out = args.output.resolve()
     force_pairs = verified_pairs()
     groups, total_questions = load_questions(quiz)
+    uncle_neutral_tone_questions = validate_uncle_neutral_tone(groups, force_pairs)
     previous = existing_manifest(out).get("questions", {})
     out.mkdir(parents=True, exist_ok=True)
 
@@ -321,6 +365,9 @@ def build(args: argparse.Namespace) -> int:
         "mp3Bitrate": MP3_BITRATE,
         "breakMs": BREAK_MS,
         "questionCount": total_questions,
+        "regressionChecks": {
+            "uncleNeutralToneQuestions": uncle_neutral_tone_questions,
+        },
         "questions": {},
     }
 
