@@ -4,10 +4,10 @@
   "mode": "verified-partial",
   "rate": "-12%",
   "sourceRepo": "ChangRone/hanzi-quiz",
-  "sourceQuizCommit": "bf0c03d40aaf628278b24b770b17621ee6f06601",
-  "forceSetHash": "e9bd29ba1d03ebcc8d16bfb0a9001e302198e7f99895e65d5f753a5bdf8404e2",
+  "sourceQuizCommit": "bec722d999f20a5f6e576f9e6045c6c07c8b4208",
+  "forceSetHash": "fb0f8e2cd0fd456bd1442851c97d422a8cee5cc9a2d3df6d7de15ddd91763ac1",
   "builderHash": "395cb43c4722e75acf5719343c9db30cc5fb4d752b7a3fb341eaa428d5b1282e",
-  "audioBuildId": "229fd190ef579a06",
+  "audioBuildId": "a0fe9ca88f3c0d63",
   "pcmFormat": "riff-24khz-16bit-mono-pcm",
   "mp3Bitrate": "48k",
   "breakMs": 2500,
@@ -6595,7 +6595,7 @@
     },
     "202620200301": {
       "text": "小巷裡叔叔養貓",
-      "digest": "2865de7a81e326dd",
+      "digest": "26d432176595f6d2",
       "audio": "production-audio/v1/audio/202620200301.mp3",
       "source": "packs/2026康軒小二上-03.json",
       "ready": true
@@ -6658,7 +6658,7 @@
     },
     "202620200310": {
       "text": "叔叔捧著黃花",
-      "digest": "5c00ae2acbeafccc",
+      "digest": "c77b23e2428a1e45",
       "audio": "production-audio/v1/audio/202620200310.mp3",
       "source": "packs/2026康軒小二上-03.json",
       "ready": true
@@ -11075,7 +11075,7 @@
     },
     "202610301201": {
       "text": "叔叔回家團圓",
-      "digest": "4f1a0b0eb85bebe3",
+      "digest": "bafae20c03309ab6",
       "audio": "production-audio/v1/audio/202610301201.mp3",
       "source": "packs/2026翰林小三上-12.json",
       "ready": true
@@ -11096,7 +11096,7 @@
     },
     "202610301204": {
       "text": "叔叔站在鏡頭前",
-      "digest": "11745deb4bb638b3",
+      "digest": "9e9c01cf46eda6af",
       "audio": "production-audio/v1/audio/202610301204.mp3",
       "source": "packs/2026翰林小三上-12.json",
       "ready": true
@@ -11131,7 +11131,7 @@
     },
     "202610301209": {
       "text": "鏡頭拍到叔叔",
-      "digest": "dc886f921be6737b",
+      "digest": "4e5dc3ac634bcada",
       "audio": "production-audio/v1/audio/202610301209.mp3",
       "source": "packs/2026翰林小三上-12.json",
       "ready": true
