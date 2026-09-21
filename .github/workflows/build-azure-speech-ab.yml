@@ -29,6 +29,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Refresh queued run to latest main
+        run: git pull --ff-only origin main
+
       - name: Validate test cases and prepare manifest
         shell: bash
         run: |
