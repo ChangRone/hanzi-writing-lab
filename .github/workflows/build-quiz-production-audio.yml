@@ -29,6 +29,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Refresh queued run to latest main
+        run: git pull --ff-only origin main
+
       - name: Checkout current production Quiz source
         run: |
           rm -rf .cache/hanzi-quiz
@@ -45,13 +48,15 @@ jobs:
           python3 - <<'PY'
           import json
           from pathlib import Path
-          m=json.loads(Path('production-audio/v1/manifest.json').read_text(encoding='utf-8'))
+          m=json.loads(Path('production-audio/v1/manifest.preflight.json').read_text(encoding='utf-8'))
           assert m['voice']=='zh-TW-HsiaoChenNeural'
           assert m['mode']=='verified-partial'
           assert m['rate']=='-12%'
           assert m['questionCount'] > 0
           assert len(m['questions']) == m['questionCount']
-          print('PRODUCTION_AUDIO_PREFLIGHT=PASS questions=', m['questionCount'])
+          ready=sum(1 for item in m['questions'].values() if item['ready'])
+          pending=m['questionCount']-ready
+          print('PRODUCTION_AUDIO_PREFLIGHT=PASS questions=',m['questionCount'],'ready=',ready,'pending=',pending)
           PY
 
       - name: Build Azure production MP3
