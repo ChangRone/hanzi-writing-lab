@@ -5,9 +5,9 @@
   "rate": "-12%",
   "sourceRepo": "ChangRone/hanzi-quiz",
   "sourceQuizCommit": "397fa074921d9c0837f215d94e3703530d491977",
-  "forceSetHash": "fb0f8e2cd0fd456bd1442851c97d422a8cee5cc9a2d3df6d7de15ddd91763ac1",
+  "forceSetHash": "a13461c70888037adf106fe8c805ed161865de93cdead7b836d2882e4f7a98db",
   "builderHash": "28a1540f96d1266e428d897ec3f7333ca149e6b8741e51f6b5cdbe93a4365dc7",
-  "audioBuildId": "8058ae7a0260f561",
+  "audioBuildId": "e47b565653ce99dc",
   "pcmFormat": "riff-24khz-16bit-mono-pcm",
   "mp3Bitrate": "48k",
   "breakMs": 2500,
@@ -193,10 +193,10 @@
     },
     "202520110306": {
       "text": "媽媽來聽音樂",
-      "digest": "0f8e00b35a2f517a",
+      "digest": "34fdede4fb146c71",
       "audio": "production-audio/v1/audio/202520110306.mp3",
       "source": "packs/2025康軒小一下-03.json",
-      "ready": true
+      "ready": false
     },
     "202520110307": {
       "text": "我會唱歌",
@@ -235,10 +235,10 @@
     },
     "202520110402": {
       "text": "爸爸也把鞋脫下",
-      "digest": "6f0b31d56b3eb756",
+      "digest": "781912b20813de5c",
       "audio": "production-audio/v1/audio/202520110402.mp3",
       "source": "packs/2025康軒小一下-04.json",
-      "ready": true
+      "ready": false
     },
     "202520110403": {
       "text": "鞋靠在一起",
@@ -284,10 +284,10 @@
     },
     "202520110409": {
       "text": "爸爸回家了",
-      "digest": "97d2a3dc5bc493b2",
+      "digest": "4a8d1348e32d06e8",
       "audio": "production-audio/v1/audio/202520110409.mp3",
       "source": "packs/2025康軒小一下-04.json",
-      "ready": true
+      "ready": false
     },
     "202520110410": {
       "text": "小鞋放門口",
@@ -368,17 +368,17 @@
     },
     "202520110601": {
       "text": "奶奶起床了",
-      "digest": "07e3a9c135b4917b",
+      "digest": "df9e6690edf014bf",
       "audio": "production-audio/v1/audio/202520110601.mp3",
       "source": "packs/2025康軒小一下-06.json",
-      "ready": true
+      "ready": false
     },
     "202520110602": {
       "text": "弟弟跟著奶奶",
-      "digest": "5ecc1cbad37f976c",
+      "digest": "7fc451162143052c",
       "audio": "production-audio/v1/audio/202520110602.mp3",
       "source": "packs/2025康軒小一下-06.json",
-      "ready": true
+      "ready": false
     },
     "202520110603": {
       "text": "她也一起澆水",
@@ -389,17 +389,17 @@
     },
     "202520110604": {
       "text": "弟弟玩家家酒",
-      "digest": "fb744fd9d41136d6",
+      "digest": "804663c13a46e346",
       "audio": "production-audio/v1/audio/202520110604.mp3",
       "source": "packs/2025康軒小一下-06.json",
-      "ready": true
+      "ready": false
     },
     "202520110605": {
       "text": "他拿出卡片給奶奶",
-      "digest": "7af43d94effd6b64",
+      "digest": "edbefbfb0dd5f2f5",
       "audio": "production-audio/v1/audio/202520110605.mp3",
       "source": "packs/2025康軒小一下-06.json",
-      "ready": true
+      "ready": false
     },
     "202520110606": {
       "text": "我喜歡和您在一起",
@@ -431,10 +431,10 @@
     },
     "202520110610": {
       "text": "弟弟拿著卡片",
-      "digest": "f31be8c983ed50bd",
+      "digest": "421391b7c6acd83c",
       "audio": "production-audio/v1/audio/202520110610.mp3",
       "source": "packs/2025康軒小一下-06.json",
-      "ready": true
+      "ready": false
     },
     "202520110701": {
       "text": "白雲躺著作夢",
@@ -620,10 +620,10 @@
     },
     "202600100207": {
       "text": "妹妹笑著招招手",
-      "digest": "bcde8a00c47ad2a2",
+      "digest": "d3eb514b9a61de9a",
       "audio": "production-audio/v1/audio/202600100207.mp3",
       "source": "packs/2026南一小一上-02.json",
-      "ready": true
+      "ready": false
     },
     "202600100208": {
       "text": "地上開出小花",
@@ -718,10 +718,10 @@
     },
     "202600100401": {
       "text": "爸爸帶我到公園",
-      "digest": "f0c3196b271133c7",
+      "digest": "37f21b3ca267bd4b",
       "audio": "production-audio/v1/audio/202600100401.mp3",
       "source": "packs/2026南一小一上-04.json",
-      "ready": true
+      "ready": false
     },
     "202600100402": {
       "text": "青青的小草真美",
@@ -760,10 +760,10 @@
     },
     "202600100407": {
       "text": "爸爸叫我坐下",
-      "digest": "a35dac4a0f677ac7",
+      "digest": "83b3c6d33e8b5ceb",
       "audio": "production-audio/v1/audio/202600100407.mp3",
       "source": "packs/2026南一小一上-04.json",
-      "ready": true
+      "ready": false
     },
     "202600100408": {
       "text": "我和朋友到山上",
@@ -781,10 +781,10 @@
     },
     "202600100410": {
       "text": "我要跟爸爸說話",
-      "digest": "964b433d782a00cc",
+      "digest": "67dab04ebb77c6ff",
       "audio": "production-audio/v1/audio/202600100410.mp3",
       "source": "packs/2026南一小一上-04.json",
-      "ready": true
+      "ready": false
     },
     "202600100501": {
       "text": "我們住在這裡",
@@ -1285,10 +1285,10 @@
     },
     "202600300502": {
       "text": "兄弟兩人身體健康",
-      "digest": "945bcca21f16c29f",
+      "digest": "4712984899d5bb92",
       "audio": "production-audio/v1/audio/202600300502.mp3",
       "source": "packs/2026南一小三上-05.json",
-      "ready": true
+      "ready": false
     },
     "202600300503": {
       "text": "火龍吐出一口熱氣",
@@ -1425,10 +1425,10 @@
     },
     "202600300702": {
       "text": "我懂奶奶的皺紋",
-      "digest": "7d0c6bb886a5c570",
+      "digest": "b01016ece2e0831b",
       "audio": "production-audio/v1/audio/202600300702.mp3",
       "source": "packs/2026南一小三上-07.json",
-      "ready": true
+      "ready": false
     },
     "202600300703": {
       "text": "淘氣孩子也很懂事",
@@ -1446,10 +1446,10 @@
     },
     "202600300705": {
       "text": "媽媽梳好頭髮再夾起來",
-      "digest": "3a2b3ba8b978f995",
+      "digest": "44b03a77e548dcf2",
       "audio": "production-audio/v1/audio/202600300705.mp3",
       "source": "packs/2026南一小三上-07.json",
-      "ready": true
+      "ready": false
     },
     "202600300706": {
       "text": "我把摺紙藏進抽屜",
@@ -1467,10 +1467,10 @@
     },
     "202600300708": {
       "text": "哥哥在學摺紙藝術",
-      "digest": "2d927ad90cd24364",
+      "digest": "01ff179f4b8368d8",
       "audio": "production-audio/v1/audio/202600300708.mp3",
       "source": "packs/2026南一小三上-07.json",
-      "ready": true
+      "ready": false
     },
     "202600300709": {
       "text": "這位藝術家很有創意",
@@ -1495,17 +1495,17 @@
     },
     "202600300802": {
       "text": "媽媽圍上新圍巾",
-      "digest": "55b557e987871832",
+      "digest": "7f86edbe2f08697f",
       "audio": "production-audio/v1/audio/202600300802.mp3",
       "source": "packs/2026南一小三上-08.json",
-      "ready": true
+      "ready": false
     },
     "202600300803": {
       "text": "近視哥哥戴眼鏡",
-      "digest": "62658d734ab72d7b",
+      "digest": "d6b45e67d361d0e8",
       "audio": "production-audio/v1/audio/202600300803.mp3",
       "source": "packs/2026南一小三上-08.json",
-      "ready": true
+      "ready": false
     },
     "202600300804": {
       "text": "籃框旁有數字",
@@ -1943,10 +1943,10 @@
     },
     "202600200206": {
       "text": "爸爸沿著頭頂畫線",
-      "digest": "f98b3cf696ba9845",
+      "digest": "a5068df1c06ad738",
       "audio": "production-audio/v1/audio/202600200206.mp3",
       "source": "packs/2026南一小二上-02.json",
-      "ready": true
+      "ready": false
     },
     "202600200207": {
       "text": "我又向上爬一格",
@@ -2083,10 +2083,10 @@
     },
     "202600200406": {
       "text": "妹妹整理好書包",
-      "digest": "f200f6cb64a74b2b",
+      "digest": "fb34381f2fecec73",
       "audio": "production-audio/v1/audio/202600200406.mp3",
       "source": "packs/2026南一小二上-04.json",
-      "ready": true
+      "ready": false
     },
     "202600200407": {
       "text": "做完功課才能玩遊戲",
@@ -2237,10 +2237,10 @@
     },
     "202600200608": {
       "text": "我留便條提醒媽媽",
-      "digest": "ddba1f97609f22e6",
+      "digest": "b3b5e3275e3b5cc8",
       "audio": "production-audio/v1/audio/202600200608.mp3",
       "source": "packs/2026南一小二上-06.json",
-      "ready": true
+      "ready": false
     },
     "202600200609": {
       "text": "自己把垃圾帶回家",
@@ -2545,10 +2545,10 @@
     },
     "202600201102": {
       "text": "妹妹看著太陽升起",
-      "digest": "c71b883599bf854f",
+      "digest": "69ff0ae8bf8b0b59",
       "audio": "production-audio/v1/audio/202600201102.mp3",
       "source": "packs/2026南一小二上-11.json",
-      "ready": true
+      "ready": false
     },
     "202600201103": {
       "text": "因為期待所以很開心",
@@ -2874,10 +2874,10 @@
     },
     "202600500309": {
       "text": "我對慈祥奶奶感到慚愧",
-      "digest": "afe5b415845f0f39",
+      "digest": "f24466713435978a",
       "audio": "production-audio/v1/audio/202600500309.mp3",
       "source": "packs/2026南一小五上-03.json",
-      "ready": true
+      "ready": false
     },
     "202600500310": {
       "text": "做錯事要感到慚愧",
@@ -3609,10 +3609,10 @@
     },
     "202600600204": {
       "text": "爸爸添水以免乾掉",
-      "digest": "4d29570125e0105f",
+      "digest": "ffcc116f5489fbfc",
       "audio": "production-audio/v1/audio/202600600204.mp3",
       "source": "packs/2026南一小六上-02.json",
-      "ready": true
+      "ready": false
     },
     "202600600205": {
       "text": "尚有光從縫隙進來",
@@ -4239,10 +4239,10 @@
     },
     "202600601104": {
       "text": "我央求媽媽幫忙敷藥",
-      "digest": "c818bf446d036842",
+      "digest": "12ef8e99ac1894cd",
       "audio": "production-audio/v1/audio/202600601104.mp3",
       "source": "packs/2026南一小六上-11.json",
-      "ready": true
+      "ready": false
     },
     "202600601105": {
       "text": "不要隱瞞庭院裡的事",
@@ -4344,17 +4344,17 @@
     },
     "202600601209": {
       "text": "他喘吁吁被媽媽安撫",
-      "digest": "bd64be886613ca27",
+      "digest": "cceaa79c8482ac1e",
       "audio": "production-audio/v1/audio/202600601209.mp3",
       "source": "packs/2026南一小六上-12.json",
-      "ready": true
+      "ready": false
     },
     "202600601210": {
       "text": "爸爸疲憊後酣睡",
-      "digest": "dea924aefcd463a4",
+      "digest": "3b949659da640450",
       "audio": "production-audio/v1/audio/202600601210.mp3",
       "source": "packs/2026南一小六上-12.json",
-      "ready": true
+      "ready": false
     },
     "202600400101": {
       "text": "窗戶外景色很浪漫",
@@ -4435,10 +4435,10 @@
     },
     "202600400202": {
       "text": "奶奶煮了排骨粥",
-      "digest": "84622cd8f8aba5b8",
+      "digest": "b11ddbf82474c553",
       "audio": "production-audio/v1/audio/202600400202.mp3",
       "source": "packs/2026南一小四上-02.json",
-      "ready": true
+      "ready": false
     },
     "202600400203": {
       "text": "青菜燙過再換盤子",
@@ -4883,10 +4883,10 @@
     },
     "202600400806": {
       "text": "妹妹踮腳整理辮子",
-      "digest": "24cb6303ec49fad3",
+      "digest": "a1c1c6c53009214c",
       "audio": "production-audio/v1/audio/202600400806.mp3",
       "source": "packs/2026南一小四上-08.json",
-      "ready": true
+      "ready": false
     },
     "202600400807": {
       "text": "我踮起腳挺直身體",
@@ -5016,10 +5016,10 @@
     },
     "202600401005": {
       "text": "年初姐姐準備出嫁",
-      "digest": "0d95edae81589e07",
+      "digest": "753a20557fe87b80",
       "audio": "production-audio/v1/audio/202600401005.mp3",
       "source": "packs/2026南一小四上-10.json",
-      "ready": true
+      "ready": false
     },
     "202600401006": {
       "text": "既然不用就別亂丟",
@@ -6255,10 +6255,10 @@
     },
     "202620301002": {
       "text": "狐狸兄弟說悄悄話",
-      "digest": "da4733d7944dac43",
+      "digest": "9b2f02b0ed1c52bc",
       "audio": "production-audio/v1/audio/202620301002.mp3",
       "source": "packs/2026康軒小三上-10.json",
-      "ready": true
+      "ready": false
     },
     "202620301003": {
       "text": "秘密呀別說出去",
@@ -8446,10 +8446,10 @@
     },
     "202620600505": {
       "text": "把焦糖和牛奶充分混合",
-      "digest": "cbfdfd81791c7c21",
+      "digest": "e58f0c6da7e23e92",
       "audio": "production-audio/v1/audio/202620600505.mp3",
       "source": "packs/2026康軒小六上-05.json",
-      "ready": true
+      "ready": false
     },
     "202620600506": {
       "text": "用湯勺舀出一碗熱湯",
@@ -8488,10 +8488,10 @@
     },
     "202620600601": {
       "text": "她嫁到外地後家鄉奶茶仍風靡當地",
-      "digest": "8ed8d4e6147ba9bc",
+      "digest": "4f6a0a6a03ef95dc",
       "audio": "production-audio/v1/audio/202620600601.mp3",
       "source": "packs/2026康軒小六上-06.json",
-      "ready": true
+      "ready": false
     },
     "202620600602": {
       "text": "歷史課介紹松贊干布與古代文化",
@@ -8537,10 +8537,10 @@
     },
     "202620600608": {
       "text": "媽媽輕撫杯身再加入煉乳",
-      "digest": "4298768cdfe686d6",
+      "digest": "eb523c08aab8ba7c",
       "audio": "production-audio/v1/audio/202620600608.mp3",
       "source": "packs/2026康軒小六上-06.json",
-      "ready": true
+      "ready": false
     },
     "202620600609": {
       "text": "廚師烹調披薩時控制火候",
@@ -8775,10 +8775,10 @@
     },
     "202620601002": {
       "text": "慈祥奶奶總是笑容滿面",
-      "digest": "92bfd435ec91daa3",
+      "digest": "6d6cd60c5a719a78",
       "audio": "production-audio/v1/audio/202620601002.mp3",
       "source": "packs/2026康軒小六上-10.json",
-      "ready": true
+      "ready": false
     },
     "202620601003": {
       "text": "木柴燃燒發出劈啪聲",
@@ -8866,10 +8866,10 @@
     },
     "202620601105": {
       "text": "我替爸爸收好剛釀好的果醬",
-      "digest": "7eddbf385ef515ac",
+      "digest": "baf5a662a59ac300",
       "audio": "production-audio/v1/audio/202620601105.mp3",
       "source": "packs/2026康軒小六上-11.json",
-      "ready": true
+      "ready": false
     },
     "202620601106": {
       "text": "原諒別人也代表願意諒解",
@@ -9048,17 +9048,17 @@
     },
     "202620400201": {
       "text": "姐姐向我招招手",
-      "digest": "fe299ec10e1289f1",
+      "digest": "ea98525796c75a7d",
       "audio": "production-audio/v1/audio/202620400201.mp3",
       "source": "packs/2026康軒小四上-02.json",
-      "ready": true
+      "ready": false
     },
     "202620400202": {
       "text": "姐姐回家煮紅豆湯",
-      "digest": "40963e1240d776e0",
+      "digest": "38382fa3ea41cbed",
       "audio": "production-audio/v1/audio/202620400202.mp3",
       "source": "packs/2026康軒小四上-02.json",
-      "ready": true
+      "ready": false
     },
     "202620400203": {
       "text": "我把跳繩拋向遠處",
@@ -9069,10 +9069,10 @@
     },
     "202620400204": {
       "text": "姐姐幫小鳥準備食糧",
-      "digest": "f95a0f581aa61c18",
+      "digest": "e7414c660c10442d",
       "audio": "production-audio/v1/audio/202620400204.mp3",
       "source": "packs/2026康軒小四上-02.json",
-      "ready": true
+      "ready": false
     },
     "202620400205": {
       "text": "大家爭著扮警察抓小偷",
@@ -9111,10 +9111,10 @@
     },
     "202620400210": {
       "text": "姐姐拋繩讓我跳",
-      "digest": "1b9867d4da71f455",
+      "digest": "ee86068e7a2eaa3c",
       "audio": "production-audio/v1/audio/202620400210.mp3",
       "source": "packs/2026康軒小四上-02.json",
-      "ready": true
+      "ready": false
     },
     "202620400301": {
       "text": "籃球社邀我一起練球",
@@ -9839,10 +9839,10 @@
     },
     "202610100104": {
       "text": "你和爸爸出門",
-      "digest": "46c86b62b4d7b157",
+      "digest": "e5a2d0a3566dd3ce",
       "audio": "production-audio/v1/audio/202610100104.mp3",
       "source": "packs/2026翰林小一上-01.json",
-      "ready": true
+      "ready": false
     },
     "202610100105": {
       "text": "一起向右走",
@@ -10525,10 +10525,10 @@
     },
     "202610300402": {
       "text": "師傅帶著徒弟工作",
-      "digest": "3f315f79dffe4a7b",
+      "digest": "9b840fc97b881f01",
       "audio": "production-audio/v1/audio/202610300402.mp3",
       "source": "packs/2026翰林小三上-04.json",
-      "ready": true
+      "ready": false
     },
     "202610300403": {
       "text": "大家撿木柴生火",
@@ -11106,10 +11106,10 @@
     },
     "202610301205": {
       "text": "媽媽逗娃娃笑",
-      "digest": "26fd2308c2993453",
+      "digest": "1bacdd127b32d84f",
       "audio": "production-audio/v1/audio/202610301205.mp3",
       "source": "packs/2026翰林小三上-12.json",
-      "ready": true
+      "ready": false
     },
     "202610301206": {
       "text": "壓歲錢放進紅包",
@@ -11498,10 +11498,10 @@
     },
     "202610200601": {
       "text": "月亮照著奶奶家",
-      "digest": "7ff789fed163f3d7",
+      "digest": "70cb042632943088",
       "audio": "production-audio/v1/audio/202610200601.mp3",
       "source": "packs/2026翰林小二上-06.json",
-      "ready": true
+      "ready": false
     },
     "202610200602": {
       "text": "晚飯後出去散步",
@@ -11778,10 +11778,10 @@
     },
     "202610201001": {
       "text": "表弟正在學閱讀",
-      "digest": "fd42d8c9690ea665",
+      "digest": "59901256d49ab3c7",
       "audio": "production-audio/v1/audio/202610201001.mp3",
       "source": "packs/2026翰林小二上-10.json",
-      "ready": true
+      "ready": false
     },
     "202610201002": {
       "text": "我認識這個字謎",
@@ -11806,10 +11806,10 @@
     },
     "202610201005": {
       "text": "表哥張嘴笑了",
-      "digest": "2e714ce5f90520b3",
+      "digest": "7967e807aaeaee31",
       "audio": "production-audio/v1/audio/202610201005.mp3",
       "source": "packs/2026翰林小二上-10.json",
-      "ready": true
+      "ready": false
     },
     "202610201006": {
       "text": "這道數學題不難",
@@ -11841,10 +11841,10 @@
     },
     "202610201010": {
       "text": "減法題表哥會做",
-      "digest": "55557a58047bbe71",
+      "digest": "d7f0bfa136b043b6",
       "audio": "production-audio/v1/audio/202610201010.mp3",
       "source": "packs/2026翰林小二上-10.json",
-      "ready": true
+      "ready": false
     },
     "202610201101": {
       "text": "這扇門真奇怪",
@@ -13878,10 +13878,10 @@
     },
     "202610400401": {
       "text": "兄弟看老鷹飛翔",
-      "digest": "d5f7e73ac34b65c8",
+      "digest": "255656a992046e5c",
       "audio": "production-audio/v1/audio/202610400401.mp3",
       "source": "packs/2026翰林小四上-04.json",
-      "ready": true
+      "ready": false
     },
     "202610400402": {
       "text": "無論如何都要控制速度",
@@ -14508,7 +14508,7 @@
     }
   },
   "generatedNow": 0,
-  "reused": 2070,
+  "reused": 2022,
   "azureRequests": 0,
   "batchSize": 20
 }
