@@ -1,6 +1,6 @@
 {
   "schema": "hanzi-speech-ab-cases-v1",
-  "generatedAt": "2026-09-17",
+  "generatedAt": "2026-09-23",
   "description": "Azure zh-TW Speech A/B prototype. full mode forces every provided Zhuyin syllable; partial mode only forces tokens marked force=true; plain mode lets Azure infer pronunciation.",
   "cases": [
     {
@@ -1055,6 +1055,488 @@
         [
           "貓",
           "ㄇㄠ"
+        ]
+      ]
+    },
+    {
+      "id": "q28",
+      "text": "爸爸帶我去公園",
+      "focus": "爸爸 ㄅㄚˋ・ㄅㄚ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "爸",
+          "ㄅㄚˋ",
+          true
+        ],
+        [
+          "爸",
+          "ㄅㄚ˙",
+          true
+        ],
+        [
+          "帶",
+          "ㄉㄞˋ"
+        ],
+        [
+          "我",
+          "ㄨㄛˇ"
+        ],
+        [
+          "去",
+          "ㄑㄩˋ"
+        ],
+        [
+          "公",
+          "ㄍㄨㄥ"
+        ],
+        [
+          "園",
+          "ㄩㄢˊ"
+        ]
+      ]
+    },
+    {
+      "id": "q29",
+      "text": "媽媽正在做早餐",
+      "focus": "媽媽 ㄇㄚ・ㄇㄚ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "媽",
+          "ㄇㄚ",
+          true
+        ],
+        [
+          "媽",
+          "ㄇㄚ˙",
+          true
+        ],
+        [
+          "正",
+          "ㄓㄥˋ"
+        ],
+        [
+          "在",
+          "ㄗㄞˋ"
+        ],
+        [
+          "做",
+          "ㄗㄨㄛˋ"
+        ],
+        [
+          "早",
+          "ㄗㄠˇ"
+        ],
+        [
+          "餐",
+          "ㄘㄢ"
+        ]
+      ]
+    },
+    {
+      "id": "q30",
+      "text": "哥哥陪我去上學",
+      "focus": "哥哥 ㄍㄜ・ㄍㄜ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "哥",
+          "ㄍㄜ",
+          true
+        ],
+        [
+          "哥",
+          "ㄍㄜ˙",
+          true
+        ],
+        [
+          "陪",
+          "ㄆㄟˊ"
+        ],
+        [
+          "我",
+          "ㄨㄛˇ"
+        ],
+        [
+          "去",
+          "ㄑㄩˋ"
+        ],
+        [
+          "上",
+          "ㄕㄤˋ"
+        ],
+        [
+          "學",
+          "ㄒㄩㄝˊ"
+        ]
+      ]
+    },
+    {
+      "id": "q31",
+      "text": "姐姐借我一本書",
+      "focus": "姐姐 ㄐㄧㄝˇ・ㄐㄧㄝ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "姐",
+          "ㄐㄧㄝˇ",
+          true
+        ],
+        [
+          "姐",
+          "ㄐㄧㄝ˙",
+          true
+        ],
+        [
+          "借",
+          "ㄐㄧㄝˋ"
+        ],
+        [
+          "我",
+          "ㄨㄛˇ"
+        ],
+        [
+          "一",
+          "ㄧ"
+        ],
+        [
+          "本",
+          "ㄅㄣˇ"
+        ],
+        [
+          "書",
+          "ㄕㄨ"
+        ]
+      ]
+    },
+    {
+      "id": "q32",
+      "text": "弟弟在院子玩球",
+      "focus": "弟弟 ㄉㄧˋ・ㄉㄧ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "弟",
+          "ㄉㄧˋ",
+          true
+        ],
+        [
+          "弟",
+          "ㄉㄧ˙",
+          true
+        ],
+        [
+          "在",
+          "ㄗㄞˋ"
+        ],
+        [
+          "院",
+          "ㄩㄢˋ"
+        ],
+        [
+          "子",
+          "ㄗ˙"
+        ],
+        [
+          "玩",
+          "ㄨㄢˊ"
+        ],
+        [
+          "球",
+          "ㄑㄧㄡˊ"
+        ]
+      ]
+    },
+    {
+      "id": "q33",
+      "text": "妹妹喜歡畫小花",
+      "focus": "妹妹 ㄇㄟˋ・ㄇㄟ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "妹",
+          "ㄇㄟˋ",
+          true
+        ],
+        [
+          "妹",
+          "ㄇㄟ˙",
+          true
+        ],
+        [
+          "喜",
+          "ㄒㄧˇ"
+        ],
+        [
+          "歡",
+          "ㄏㄨㄢ"
+        ],
+        [
+          "畫",
+          "ㄏㄨㄚˋ"
+        ],
+        [
+          "小",
+          "ㄒㄧㄠˇ"
+        ],
+        [
+          "花",
+          "ㄏㄨㄚ"
+        ]
+      ]
+    },
+    {
+      "id": "q34",
+      "text": "爺爺坐在樹下休息",
+      "focus": "爺爺 ㄧㄝˊ・ㄧㄝ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "爺",
+          "ㄧㄝˊ",
+          true
+        ],
+        [
+          "爺",
+          "ㄧㄝ˙",
+          true
+        ],
+        [
+          "坐",
+          "ㄗㄨㄛˋ"
+        ],
+        [
+          "在",
+          "ㄗㄞˋ"
+        ],
+        [
+          "樹",
+          "ㄕㄨˋ"
+        ],
+        [
+          "下",
+          "ㄒㄧㄚˋ"
+        ],
+        [
+          "休",
+          "ㄒㄧㄡ"
+        ],
+        [
+          "息",
+          "ㄒㄧˊ"
+        ]
+      ]
+    },
+    {
+      "id": "q35",
+      "text": "奶奶說了一個故事",
+      "focus": "奶奶 ㄋㄞˇ・ㄋㄞ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "奶",
+          "ㄋㄞˇ",
+          true
+        ],
+        [
+          "奶",
+          "ㄋㄞ˙",
+          true
+        ],
+        [
+          "說",
+          "ㄕㄨㄛ"
+        ],
+        [
+          "了",
+          "ㄌㄜ˙"
+        ],
+        [
+          "一",
+          "ㄧ"
+        ],
+        [
+          "個",
+          "ㄍㄜˋ"
+        ],
+        [
+          "故",
+          "ㄍㄨˋ"
+        ],
+        [
+          "事",
+          "ㄕˋ"
+        ]
+      ]
+    },
+    {
+      "id": "q36",
+      "text": "伯伯今天來看我們",
+      "focus": "伯伯 ㄅㄛˊ・ㄅㄛ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "伯",
+          "ㄅㄛˊ",
+          true
+        ],
+        [
+          "伯",
+          "ㄅㄛ˙",
+          true
+        ],
+        [
+          "今",
+          "ㄐㄧㄣ"
+        ],
+        [
+          "天",
+          "ㄊㄧㄢ"
+        ],
+        [
+          "來",
+          "ㄌㄞˊ"
+        ],
+        [
+          "看",
+          "ㄎㄢˋ"
+        ],
+        [
+          "我",
+          "ㄨㄛˇ"
+        ],
+        [
+          "們",
+          "ㄇㄣ˙"
+        ]
+      ]
+    },
+    {
+      "id": "q37",
+      "text": "姑姑送我一盒彩筆",
+      "focus": "姑姑 ㄍㄨ・ㄍㄨ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "姑",
+          "ㄍㄨ",
+          true
+        ],
+        [
+          "姑",
+          "ㄍㄨ˙",
+          true
+        ],
+        [
+          "送",
+          "ㄙㄨㄥˋ"
+        ],
+        [
+          "我",
+          "ㄨㄛˇ"
+        ],
+        [
+          "一",
+          "ㄧ"
+        ],
+        [
+          "盒",
+          "ㄏㄜˊ"
+        ],
+        [
+          "彩",
+          "ㄘㄞˇ"
+        ],
+        [
+          "筆",
+          "ㄅㄧˇ"
+        ]
+      ]
+    },
+    {
+      "id": "q38",
+      "text": "舅舅開車來接我們",
+      "focus": "舅舅 ㄐㄧㄡˋ・ㄐㄧㄡ˙",
+      "tags": [
+        "reduplication",
+        "second-syllable-neutral-tone",
+        "production-regression"
+      ],
+      "tokens": [
+        [
+          "舅",
+          "ㄐㄧㄡˋ",
+          true
+        ],
+        [
+          "舅",
+          "ㄐㄧㄡ˙",
+          true
+        ],
+        [
+          "開",
+          "ㄎㄞ"
+        ],
+        [
+          "車",
+          "ㄔㄜ"
+        ],
+        [
+          "來",
+          "ㄌㄞˊ"
+        ],
+        [
+          "接",
+          "ㄐㄧㄝ"
+        ],
+        [
+          "我",
+          "ㄨㄛˇ"
+        ],
+        [
+          "們",
+          "ㄇㄣ˙"
         ]
       ]
     }
