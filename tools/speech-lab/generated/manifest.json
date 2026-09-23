@@ -1,6 +1,6 @@
 {
   "schema": "hanzi-speech-ab-manifest-v1",
-  "builtAt": "2026-09-21T21:34:06.399742+00:00",
+  "builtAt": "2026-09-23T12:56:29.872016+00:00",
   "status": "generated",
   "outputFormat": "audio-24khz-48kbitrate-mono-mp3",
   "rate": "0%",
@@ -13,8 +13,8 @@
     "partial",
     "full"
   ],
-  "caseCount": 27,
-  "variantCountExpected": 162,
+  "caseCount": 38,
+  "variantCountExpected": 228,
   "variants": {
     "q01": {
       "text": "蝴蝶忙著採花蜜",
@@ -1311,8 +1311,536 @@
           }
         }
       }
+    },
+    "q28": {
+      "text": "爸爸帶我去公園",
+      "focus": "爸爸 ㄅㄚˋ・ㄅㄚ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q28-765ba8d6c427.mp3",
+            "digest": "765ba8d6c427",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄚˋ\">爸</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄅㄚ˙\">爸</phoneme>帶我去公園</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q28-1a45efadfc51.mp3",
+            "digest": "1a45efadfc51",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄚˋ ㄅㄚ˙ ㄉㄞˋ ㄨㄛˇ ㄑㄩˋ ㄍㄨㄥ ㄩㄢˊ\">爸爸帶我去公園</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q28-7a6577c35340.mp3",
+            "digest": "7a6577c35340",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄚˋ\">爸</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄅㄚ˙\">爸</phoneme>帶我去公園</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q28-64ae6b19b88a.mp3",
+            "digest": "64ae6b19b88a",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄚˋ ㄅㄚ˙ ㄉㄞˋ ㄨㄛˇ ㄑㄩˋ ㄍㄨㄥ ㄩㄢˊ\">爸爸帶我去公園</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q28-98715cf2f0cc.mp3",
+            "digest": "98715cf2f0cc",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄚˋ\">爸</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄅㄚ˙\">爸</phoneme>帶我去公園</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q28-40d14dc7a9b4.mp3",
+            "digest": "40d14dc7a9b4",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄚˋ ㄅㄚ˙ ㄉㄞˋ ㄨㄛˇ ㄑㄩˋ ㄍㄨㄥ ㄩㄢˊ\">爸爸帶我去公園</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q29": {
+      "text": "媽媽正在做早餐",
+      "focus": "媽媽 ㄇㄚ・ㄇㄚ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q29-3f505980a45b.mp3",
+            "digest": "3f505980a45b",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ\">媽</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ˙\">媽</phoneme>正在做早餐</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q29-90d4b39cd706.mp3",
+            "digest": "90d4b39cd706",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ ㄇㄚ˙ ㄓㄥˋ ㄗㄞˋ ㄗㄨㄛˋ ㄗㄠˇ ㄘㄢ\">媽媽正在做早餐</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q29-d1861d62836d.mp3",
+            "digest": "d1861d62836d",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ\">媽</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ˙\">媽</phoneme>正在做早餐</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q29-90f8b42718f5.mp3",
+            "digest": "90f8b42718f5",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ ㄇㄚ˙ ㄓㄥˋ ㄗㄞˋ ㄗㄨㄛˋ ㄗㄠˇ ㄘㄢ\">媽媽正在做早餐</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q29-50c8f848c57a.mp3",
+            "digest": "50c8f848c57a",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ\">媽</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ˙\">媽</phoneme>正在做早餐</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q29-7089f0f1ca75.mp3",
+            "digest": "7089f0f1ca75",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄚ ㄇㄚ˙ ㄓㄥˋ ㄗㄞˋ ㄗㄨㄛˋ ㄗㄠˇ ㄘㄢ\">媽媽正在做早餐</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q30": {
+      "text": "哥哥陪我去上學",
+      "focus": "哥哥 ㄍㄜ・ㄍㄜ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q30-1312f12756e3.mp3",
+            "digest": "1312f12756e3",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ\">哥</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ˙\">哥</phoneme>陪我去上學</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q30-e28e22a1e6f0.mp3",
+            "digest": "e28e22a1e6f0",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ ㄍㄜ˙ ㄆㄟˊ ㄨㄛˇ ㄑㄩˋ ㄕㄤˋ ㄒㄩㄝˊ\">哥哥陪我去上學</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q30-9a57f46080f4.mp3",
+            "digest": "9a57f46080f4",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ\">哥</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ˙\">哥</phoneme>陪我去上學</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q30-0357167fd4d9.mp3",
+            "digest": "0357167fd4d9",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ ㄍㄜ˙ ㄆㄟˊ ㄨㄛˇ ㄑㄩˋ ㄕㄤˋ ㄒㄩㄝˊ\">哥哥陪我去上學</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q30-7981727b3f16.mp3",
+            "digest": "7981727b3f16",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ\">哥</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ˙\">哥</phoneme>陪我去上學</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q30-1c91d88a0e37.mp3",
+            "digest": "1c91d88a0e37",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄜ ㄍㄜ˙ ㄆㄟˊ ㄨㄛˇ ㄑㄩˋ ㄕㄤˋ ㄒㄩㄝˊ\">哥哥陪我去上學</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q31": {
+      "text": "姐姐借我一本書",
+      "focus": "姐姐 ㄐㄧㄝˇ・ㄐㄧㄝ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q31-b99c5f591e71.mp3",
+            "digest": "b99c5f591e71",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝˇ\">姐</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝ˙\">姐</phoneme>借我一本書</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q31-f83b1a9e6961.mp3",
+            "digest": "f83b1a9e6961",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝˇ ㄐㄧㄝ˙ ㄐㄧㄝˋ ㄨㄛˇ ㄧ ㄅㄣˇ ㄕㄨ\">姐姐借我一本書</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q31-6ee88a52702e.mp3",
+            "digest": "6ee88a52702e",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝˇ\">姐</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝ˙\">姐</phoneme>借我一本書</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q31-8166ec99ccdc.mp3",
+            "digest": "8166ec99ccdc",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝˇ ㄐㄧㄝ˙ ㄐㄧㄝˋ ㄨㄛˇ ㄧ ㄅㄣˇ ㄕㄨ\">姐姐借我一本書</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q31-14c233159899.mp3",
+            "digest": "14c233159899",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝˇ\">姐</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝ˙\">姐</phoneme>借我一本書</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q31-d6a945c9a37d.mp3",
+            "digest": "d6a945c9a37d",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄝˇ ㄐㄧㄝ˙ ㄐㄧㄝˋ ㄨㄛˇ ㄧ ㄅㄣˇ ㄕㄨ\">姐姐借我一本書</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q32": {
+      "text": "弟弟在院子玩球",
+      "focus": "弟弟 ㄉㄧˋ・ㄉㄧ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q32-47139d2fa177.mp3",
+            "digest": "47139d2fa177",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ\">弟</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄉㄧ˙\">弟</phoneme>在院子玩球</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q32-f60b746a295b.mp3",
+            "digest": "f60b746a295b",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ ㄉㄧ˙ ㄗㄞˋ ㄩㄢˋ ㄗ˙ ㄨㄢˊ ㄑㄧㄡˊ\">弟弟在院子玩球</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q32-b7444c05836c.mp3",
+            "digest": "b7444c05836c",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ\">弟</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄉㄧ˙\">弟</phoneme>在院子玩球</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q32-6b1901e7fe31.mp3",
+            "digest": "6b1901e7fe31",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ ㄉㄧ˙ ㄗㄞˋ ㄩㄢˋ ㄗ˙ ㄨㄢˊ ㄑㄧㄡˊ\">弟弟在院子玩球</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q32-22e0a2cbb644.mp3",
+            "digest": "22e0a2cbb644",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ\">弟</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄉㄧ˙\">弟</phoneme>在院子玩球</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q32-6a7b083ec64e.mp3",
+            "digest": "6a7b083ec64e",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄉㄧˋ ㄉㄧ˙ ㄗㄞˋ ㄩㄢˋ ㄗ˙ ㄨㄢˊ ㄑㄧㄡˊ\">弟弟在院子玩球</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q33": {
+      "text": "妹妹喜歡畫小花",
+      "focus": "妹妹 ㄇㄟˋ・ㄇㄟ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q33-00d34c50cc04.mp3",
+            "digest": "00d34c50cc04",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄟˋ\">妹</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄇㄟ˙\">妹</phoneme>喜歡畫小花</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q33-64e994b34464.mp3",
+            "digest": "64e994b34464",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄟˋ ㄇㄟ˙ ㄒㄧˇ ㄏㄨㄢ ㄏㄨㄚˋ ㄒㄧㄠˇ ㄏㄨㄚ\">妹妹喜歡畫小花</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q33-4199e9d75de0.mp3",
+            "digest": "4199e9d75de0",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄟˋ\">妹</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄇㄟ˙\">妹</phoneme>喜歡畫小花</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q33-ca59b6dcbb69.mp3",
+            "digest": "ca59b6dcbb69",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄟˋ ㄇㄟ˙ ㄒㄧˇ ㄏㄨㄢ ㄏㄨㄚˋ ㄒㄧㄠˇ ㄏㄨㄚ\">妹妹喜歡畫小花</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q33-871a9fbb2a3b.mp3",
+            "digest": "871a9fbb2a3b",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄟˋ\">妹</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄇㄟ˙\">妹</phoneme>喜歡畫小花</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q33-87097402ab8d.mp3",
+            "digest": "87097402ab8d",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄇㄟˋ ㄇㄟ˙ ㄒㄧˇ ㄏㄨㄢ ㄏㄨㄚˋ ㄒㄧㄠˇ ㄏㄨㄚ\">妹妹喜歡畫小花</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q34": {
+      "text": "爺爺坐在樹下休息",
+      "focus": "爺爺 ㄧㄝˊ・ㄧㄝ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q34-0ce94adac044.mp3",
+            "digest": "0ce94adac044",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ\">爺</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄧㄝ˙\">爺</phoneme>坐在樹下休息</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q34-55f88e9b60d6.mp3",
+            "digest": "55f88e9b60d6",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ ㄧㄝ˙ ㄗㄨㄛˋ ㄗㄞˋ ㄕㄨˋ ㄒㄧㄚˋ ㄒㄧㄡ ㄒㄧˊ\">爺爺坐在樹下休息</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q34-53cdfc4b3e27.mp3",
+            "digest": "53cdfc4b3e27",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ\">爺</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄧㄝ˙\">爺</phoneme>坐在樹下休息</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q34-620fabadac36.mp3",
+            "digest": "620fabadac36",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ ㄧㄝ˙ ㄗㄨㄛˋ ㄗㄞˋ ㄕㄨˋ ㄒㄧㄚˋ ㄒㄧㄡ ㄒㄧˊ\">爺爺坐在樹下休息</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q34-9c5e8499dbb0.mp3",
+            "digest": "9c5e8499dbb0",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ\">爺</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄧㄝ˙\">爺</phoneme>坐在樹下休息</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q34-b3f209bc94e2.mp3",
+            "digest": "b3f209bc94e2",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄧㄝˊ ㄧㄝ˙ ㄗㄨㄛˋ ㄗㄞˋ ㄕㄨˋ ㄒㄧㄚˋ ㄒㄧㄡ ㄒㄧˊ\">爺爺坐在樹下休息</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q35": {
+      "text": "奶奶說了一個故事",
+      "focus": "奶奶 ㄋㄞˇ・ㄋㄞ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q35-b6addfd6919d.mp3",
+            "digest": "b6addfd6919d",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄋㄞˇ\">奶</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄋㄞ˙\">奶</phoneme>說了一個故事</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q35-7ecf7e203bea.mp3",
+            "digest": "7ecf7e203bea",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄋㄞˇ ㄋㄞ˙ ㄕㄨㄛ ㄌㄜ˙ ㄧ ㄍㄜˋ ㄍㄨˋ ㄕˋ\">奶奶說了一個故事</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q35-817af49a4248.mp3",
+            "digest": "817af49a4248",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄋㄞˇ\">奶</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄋㄞ˙\">奶</phoneme>說了一個故事</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q35-db37a1042c0b.mp3",
+            "digest": "db37a1042c0b",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄋㄞˇ ㄋㄞ˙ ㄕㄨㄛ ㄌㄜ˙ ㄧ ㄍㄜˋ ㄍㄨˋ ㄕˋ\">奶奶說了一個故事</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q35-79da0003ee4a.mp3",
+            "digest": "79da0003ee4a",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄋㄞˇ\">奶</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄋㄞ˙\">奶</phoneme>說了一個故事</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q35-e7a05543fb2b.mp3",
+            "digest": "e7a05543fb2b",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄋㄞˇ ㄋㄞ˙ ㄕㄨㄛ ㄌㄜ˙ ㄧ ㄍㄜˋ ㄍㄨˋ ㄕˋ\">奶奶說了一個故事</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q36": {
+      "text": "伯伯今天來看我們",
+      "focus": "伯伯 ㄅㄛˊ・ㄅㄛ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q36-6ba8070ed373.mp3",
+            "digest": "6ba8070ed373",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄛˊ\">伯</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄅㄛ˙\">伯</phoneme>今天來看我們</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q36-707feaf98498.mp3",
+            "digest": "707feaf98498",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄛˊ ㄅㄛ˙ ㄐㄧㄣ ㄊㄧㄢ ㄌㄞˊ ㄎㄢˋ ㄨㄛˇ ㄇㄣ˙\">伯伯今天來看我們</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q36-ccfd2948c515.mp3",
+            "digest": "ccfd2948c515",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄛˊ\">伯</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄅㄛ˙\">伯</phoneme>今天來看我們</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q36-725b59be68df.mp3",
+            "digest": "725b59be68df",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄛˊ ㄅㄛ˙ ㄐㄧㄣ ㄊㄧㄢ ㄌㄞˊ ㄎㄢˋ ㄨㄛˇ ㄇㄣ˙\">伯伯今天來看我們</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q36-7c25889699cf.mp3",
+            "digest": "7c25889699cf",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄛˊ\">伯</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄅㄛ˙\">伯</phoneme>今天來看我們</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q36-e65691673613.mp3",
+            "digest": "e65691673613",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄅㄛˊ ㄅㄛ˙ ㄐㄧㄣ ㄊㄧㄢ ㄌㄞˊ ㄎㄢˋ ㄨㄛˇ ㄇㄣ˙\">伯伯今天來看我們</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q37": {
+      "text": "姑姑送我一盒彩筆",
+      "focus": "姑姑 ㄍㄨ・ㄍㄨ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q37-7079cd4ef19a.mp3",
+            "digest": "7079cd4ef19a",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ\">姑</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ˙\">姑</phoneme>送我一盒彩筆</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q37-ae615f7a5f6a.mp3",
+            "digest": "ae615f7a5f6a",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ ㄍㄨ˙ ㄙㄨㄥˋ ㄨㄛˇ ㄧ ㄏㄜˊ ㄘㄞˇ ㄅㄧˇ\">姑姑送我一盒彩筆</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q37-6df5e06a4e74.mp3",
+            "digest": "6df5e06a4e74",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ\">姑</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ˙\">姑</phoneme>送我一盒彩筆</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q37-d08db7da2f61.mp3",
+            "digest": "d08db7da2f61",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ ㄍㄨ˙ ㄙㄨㄥˋ ㄨㄛˇ ㄧ ㄏㄜˊ ㄘㄞˇ ㄅㄧˇ\">姑姑送我一盒彩筆</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q37-270f7938da66.mp3",
+            "digest": "270f7938da66",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ\">姑</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ˙\">姑</phoneme>送我一盒彩筆</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q37-30e0666ae707.mp3",
+            "digest": "30e0666ae707",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄍㄨ ㄍㄨ˙ ㄙㄨㄥˋ ㄨㄛˇ ㄧ ㄏㄜˊ ㄘㄞˇ ㄅㄧˇ\">姑姑送我一盒彩筆</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
+    },
+    "q38": {
+      "text": "舅舅開車來接我們",
+      "focus": "舅舅 ㄐㄧㄡˋ・ㄐㄧㄡ˙",
+      "variants": {
+        "zh-TW-HsiaoChenNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/partial/q38-83df758bf47e.mp3",
+            "digest": "83df758bf47e",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡˋ\">舅</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡ˙\">舅</phoneme>開車來接我們</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoChenNeural/full/q38-c45ca4d456c1.mp3",
+            "digest": "c45ca4d456c1",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoChenNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡˋ ㄐㄧㄡ˙ ㄎㄞ ㄔㄜ ㄌㄞˊ ㄐㄧㄝ ㄨㄛˇ ㄇㄣ˙\">舅舅開車來接我們</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-HsiaoYuNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/partial/q38-976be23ffb4e.mp3",
+            "digest": "976be23ffb4e",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡˋ\">舅</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡ˙\">舅</phoneme>開車來接我們</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-HsiaoYuNeural/full/q38-44bbf99b5729.mp3",
+            "digest": "44bbf99b5729",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-HsiaoYuNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡˋ ㄐㄧㄡ˙ ㄎㄞ ㄔㄜ ㄌㄞˊ ㄐㄧㄝ ㄨㄛˇ ㄇㄣ˙\">舅舅開車來接我們</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        },
+        "zh-TW-YunJheNeural": {
+          "partial": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/partial/q38-0d02d893ad5f.mp3",
+            "digest": "0d02d893ad5f",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡˋ\">舅</phoneme><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡ˙\">舅</phoneme>開車來接我們</prosody></voice></speak>",
+            "ready": true
+          },
+          "full": {
+            "audio": "tools/speech-lab/generated/audio/zh-TW-YunJheNeural/full/q38-37e0576799e9.mp3",
+            "digest": "37e0576799e9",
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"zh-TW\"><voice name=\"zh-TW-YunJheNeural\"><prosody rate=\"0%\"><phoneme alphabet=\"sapi\" ph=\"ㄐㄧㄡˋ ㄐㄧㄡ˙ ㄎㄞ ㄔㄜ ㄌㄞˊ ㄐㄧㄝ ㄨㄛˇ ㄇㄣ˙\">舅舅開車來接我們</phoneme></prosody></voice></speak>",
+            "ready": true
+          }
+        }
+      }
     }
   },
-  "generatedNow": 6,
-  "reused": 156
+  "generatedNow": 66,
+  "reused": 162
 }
