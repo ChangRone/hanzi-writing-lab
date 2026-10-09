@@ -4,16 +4,16 @@
   "mode": "verified-partial",
   "rate": "-12%",
   "sourceRepo": "ChangRone/hanzi-quiz",
-  "sourceQuizCommit": "397fa074921d9c0837f215d94e3703530d491977",
+  "sourceQuizCommit": "b1bcec10104f5ede1588cfd41afac1cab6249bb9",
   "forceSetHash": "a13461c70888037adf106fe8c805ed161865de93cdead7b836d2882e4f7a98db",
   "builderHash": "28a1540f96d1266e428d897ec3f7333ca149e6b8741e51f6b5cdbe93a4365dc7",
-  "audioBuildId": "e47b565653ce99dc",
+  "audioBuildId": "948b4c7ec8a33a97",
   "pcmFormat": "riff-24khz-16bit-mono-pcm",
   "mp3Bitrate": "48k",
   "breakMs": 2500,
-  "questionCount": 2070,
+  "questionCount": 2442,
   "regressionChecks": {
-    "uncleNeutralToneQuestions": 5
+    "uncleNeutralToneQuestions": 7
   },
   "questions": {
     "202520110101": {
@@ -6526,6 +6526,202 @@
       "source": "packs/2026康軒小二上-01.json",
       "ready": true
     },
+    "202620200111": {
+      "text": "新的學年",
+      "digest": "d3fe568a9da0eeb5",
+      "audio": "production-audio/v1/audio/202620200111.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200112": {
+      "text": "新希望",
+      "digest": "52a2b8fadc032fb2",
+      "audio": "production-audio/v1/audio/202620200112.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200113": {
+      "text": "坐在新位子",
+      "digest": "e5d6864fd2bf4803",
+      "audio": "production-audio/v1/audio/202620200113.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200114": {
+      "text": "新課本",
+      "digest": "35ef0dc87d7cd1b3",
+      "audio": "production-audio/v1/audio/202620200114.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200115": {
+      "text": "淡淡的書香",
+      "digest": "ac3604b2f3c13dad",
+      "audio": "production-audio/v1/audio/202620200115.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200116": {
+      "text": "老師",
+      "digest": "b333a441f170059b",
+      "audio": "production-audio/v1/audio/202620200116.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200117": {
+      "text": "以前",
+      "digest": "8b054705612ef0d6",
+      "audio": "production-audio/v1/audio/202620200117.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200118": {
+      "text": "成為說故事高手",
+      "digest": "6970c684526b8b4a",
+      "audio": "production-audio/v1/audio/202620200118.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200119": {
+      "text": "說故事",
+      "digest": "3e5e0d8c1a979216",
+      "audio": "production-audio/v1/audio/202620200119.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200120": {
+      "text": "用力",
+      "digest": "0e549ceb80b2303f",
+      "audio": "production-audio/v1/audio/202620200120.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200121": {
+      "text": "只喜歡",
+      "digest": "6275e6940e1ce6e1",
+      "audio": "production-audio/v1/audio/202620200121.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200122": {
+      "text": "現在",
+      "digest": "cb512935635ae489",
+      "audio": "production-audio/v1/audio/202620200122.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200123": {
+      "text": "好書",
+      "digest": "789def5ed8b4dc4a",
+      "audio": "production-audio/v1/audio/202620200123.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200124": {
+      "text": "還要快快長高",
+      "digest": "b8f47f938535f2d5",
+      "audio": "production-audio/v1/audio/202620200124.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200151": {
+      "text": "我把新的學年寫在本子上",
+      "digest": "d3c905f8b7eccb98",
+      "audio": "production-audio/v1/audio/202620200151.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200152": {
+      "text": "今天練習寫新希望",
+      "digest": "ba7cabc6f7c1da19",
+      "audio": "production-audio/v1/audio/202620200152.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200153": {
+      "text": "我跟著老師念坐在新位子",
+      "digest": "ed0c1c1137cd59cb",
+      "audio": "production-audio/v1/audio/202620200153.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200154": {
+      "text": "老師請我念新課本",
+      "digest": "a7f172d88c45a111",
+      "audio": "production-audio/v1/audio/202620200154.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200155": {
+      "text": "我把淡淡的書香寫在本子上",
+      "digest": "c7a4ac1e5b9fc191",
+      "audio": "production-audio/v1/audio/202620200155.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200156": {
+      "text": "今天練習寫老師",
+      "digest": "ff2fedff40e6d5b8",
+      "audio": "production-audio/v1/audio/202620200156.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200157": {
+      "text": "我跟著老師念以前",
+      "digest": "2129ec9c37b4fa83",
+      "audio": "production-audio/v1/audio/202620200157.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200158": {
+      "text": "老師請我念成為說故事高手",
+      "digest": "4de9c99582629a1d",
+      "audio": "production-audio/v1/audio/202620200158.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200159": {
+      "text": "我把說故事寫在本子上",
+      "digest": "7633dbf62960413a",
+      "audio": "production-audio/v1/audio/202620200159.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200160": {
+      "text": "今天練習寫用力",
+      "digest": "faada54b5bb7a36f",
+      "audio": "production-audio/v1/audio/202620200160.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200161": {
+      "text": "我跟著老師念只喜歡",
+      "digest": "6dc667a5d3a2a784",
+      "audio": "production-audio/v1/audio/202620200161.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200162": {
+      "text": "老師請我念現在",
+      "digest": "4499631c716754d3",
+      "audio": "production-audio/v1/audio/202620200162.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200163": {
+      "text": "我把好書寫在本子上",
+      "digest": "f4dddbeafef6fd50",
+      "audio": "production-audio/v1/audio/202620200163.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
+    "202620200164": {
+      "text": "今天練習寫還要快快長高",
+      "digest": "14941c1d875be079",
+      "audio": "production-audio/v1/audio/202620200164.mp3",
+      "source": "packs/2026康軒小二上-01.json",
+      "ready": true
+    },
     "202620200201": {
       "text": "全家一起煎蛋",
       "digest": "de7ba8e74210485e",
@@ -6549,7 +6745,7 @@
     },
     "202620200204": {
       "text": "起司夾進吐司",
-      "digest": "9097abcaeb880418",
+      "digest": "484b81ca0f775a14",
       "audio": "production-audio/v1/audio/202620200204.mp3",
       "source": "packs/2026康軒小二上-02.json",
       "ready": true
@@ -6596,6 +6792,188 @@
       "source": "packs/2026康軒小二上-02.json",
       "ready": true
     },
+    "202620200211": {
+      "text": "全家",
+      "digest": "af2f1d6f77e4c487",
+      "audio": "production-audio/v1/audio/202620200211.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200212": {
+      "text": "煎蛋",
+      "digest": "7a488039822d95ce",
+      "audio": "production-audio/v1/audio/202620200212.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200213": {
+      "text": "圓圓的太陽",
+      "digest": "9f424917a15b0107",
+      "audio": "production-audio/v1/audio/202620200213.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200214": {
+      "text": "切成紅紅的",
+      "digest": "fef55dc993672545",
+      "audio": "production-audio/v1/audio/202620200214.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200215": {
+      "text": "紅紅的輪子",
+      "digest": "f0703cdd2b617006",
+      "audio": "production-audio/v1/audio/202620200215.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200216": {
+      "text": "起司",
+      "digest": "9aad04f366d41e98",
+      "audio": "production-audio/v1/audio/202620200216.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200217": {
+      "text": "夾在吐司中",
+      "digest": "a1f4b49f4bf1e645",
+      "audio": "production-audio/v1/audio/202620200217.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200218": {
+      "text": "四四方方的小城堡",
+      "digest": "1f2a4c0882d33f95",
+      "audio": "production-audio/v1/audio/202620200218.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200219": {
+      "text": "接著",
+      "digest": "5d40614d66555ef6",
+      "audio": "production-audio/v1/audio/202620200219.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200220": {
+      "text": "番茄醬",
+      "digest": "c806f1bcb54ba9a8",
+      "audio": "production-audio/v1/audio/202620200220.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200221": {
+      "text": "畫出笑臉",
+      "digest": "059ea64ce81fc99e",
+      "audio": "production-audio/v1/audio/202620200221.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200222": {
+      "text": "一起做早餐",
+      "digest": "ab827a44d2a79f74",
+      "audio": "production-audio/v1/audio/202620200222.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200223": {
+      "text": "快樂的時光",
+      "digest": "9e6af3870e1322fb",
+      "audio": "production-audio/v1/audio/202620200223.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200251": {
+      "text": "今天練習寫全家",
+      "digest": "c3183da7d14dd683",
+      "audio": "production-audio/v1/audio/202620200251.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200252": {
+      "text": "我跟著老師念煎蛋",
+      "digest": "7ed93278baacdfa2",
+      "audio": "production-audio/v1/audio/202620200252.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200253": {
+      "text": "老師請我念圓圓的太陽",
+      "digest": "3ff0e2719a5ea72c",
+      "audio": "production-audio/v1/audio/202620200253.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200254": {
+      "text": "我把切成紅紅的寫在本子上",
+      "digest": "829a08557083187a",
+      "audio": "production-audio/v1/audio/202620200254.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200255": {
+      "text": "今天練習寫紅紅的輪子",
+      "digest": "a7ff5b3c5d1d9955",
+      "audio": "production-audio/v1/audio/202620200255.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200256": {
+      "text": "我跟著老師念起司",
+      "digest": "6346609f355e5ce1",
+      "audio": "production-audio/v1/audio/202620200256.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200257": {
+      "text": "老師請我念夾在吐司中",
+      "digest": "abc9d32f6ac5c53d",
+      "audio": "production-audio/v1/audio/202620200257.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200258": {
+      "text": "我把四四方方的小城堡寫在本子上",
+      "digest": "c7a0e82cf4e18540",
+      "audio": "production-audio/v1/audio/202620200258.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200259": {
+      "text": "今天練習寫接著",
+      "digest": "dada7366a35a2a18",
+      "audio": "production-audio/v1/audio/202620200259.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200260": {
+      "text": "我跟著老師念番茄醬",
+      "digest": "03b11ee8aa59d764",
+      "audio": "production-audio/v1/audio/202620200260.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200261": {
+      "text": "老師請我念畫出笑臉",
+      "digest": "5c55fcb878767e64",
+      "audio": "production-audio/v1/audio/202620200261.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200262": {
+      "text": "我把一起做早餐寫在本子上",
+      "digest": "e640cb972773f4e0",
+      "audio": "production-audio/v1/audio/202620200262.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
+    "202620200263": {
+      "text": "今天練習寫快樂的時光",
+      "digest": "e118ac76f43316b7",
+      "audio": "production-audio/v1/audio/202620200263.mp3",
+      "source": "packs/2026康軒小二上-02.json",
+      "ready": true
+    },
     "202620200301": {
       "text": "小巷裡叔叔養貓",
       "digest": "51e00b90e8321d94",
@@ -6605,14 +6983,14 @@
     },
     "202620200302": {
       "text": "屋前有人捧著花",
-      "digest": "a3244b6b0e1a1b5b",
+      "digest": "f475309099e3202f",
       "audio": "production-audio/v1/audio/202620200302.mp3",
       "source": "packs/2026康軒小二上-03.json",
       "ready": true
     },
     "202620200303": {
       "text": "蝴蝶忙著採花蜜",
-      "digest": "20b00b5d8245c207",
+      "digest": "15114e200e30c611",
       "audio": "production-audio/v1/audio/202620200303.mp3",
       "source": "packs/2026康軒小二上-03.json",
       "ready": true
@@ -6661,8 +7039,218 @@
     },
     "202620200310": {
       "text": "叔叔捧著黃花",
-      "digest": "3630ca5cc57d9ef7",
+      "digest": "323a49db250580d6",
       "audio": "production-audio/v1/audio/202620200310.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200311": {
+      "text": "走過小巷",
+      "digest": "80d075840ad5f56e",
+      "audio": "production-audio/v1/audio/202620200311.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200312": {
+      "text": "叔叔",
+      "digest": "b88a0e1265fbb0e1",
+      "audio": "production-audio/v1/audio/202620200312.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200313": {
+      "text": "小花貓",
+      "digest": "1ee9c8d31148a15f",
+      "audio": "production-audio/v1/audio/202620200313.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200314": {
+      "text": "溫暖",
+      "digest": "a189194a604a943d",
+      "audio": "production-audio/v1/audio/202620200314.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200315": {
+      "text": "陽光",
+      "digest": "fd08b92765ff88f5",
+      "audio": "production-audio/v1/audio/202620200315.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200316": {
+      "text": "屋前",
+      "digest": "0946b63bb503a0e7",
+      "audio": "production-audio/v1/audio/202620200316.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200317": {
+      "text": "捧花",
+      "digest": "d436f8c9f76e79b4",
+      "audio": "production-audio/v1/audio/202620200317.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200318": {
+      "text": "蝴蝶",
+      "digest": "69f4b0e730dbb3fe",
+      "audio": "production-audio/v1/audio/202620200318.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200319": {
+      "text": "忙著",
+      "digest": "5f745c6a1cb66e55",
+      "audio": "production-audio/v1/audio/202620200319.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200320": {
+      "text": "娶新娘",
+      "digest": "6cf1d3eeb6e6f8d5",
+      "audio": "production-audio/v1/audio/202620200320.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200321": {
+      "text": "黃彩筆",
+      "digest": "e3306bb976c1db7d",
+      "audio": "production-audio/v1/audio/202620200321.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200322": {
+      "text": "打扮",
+      "digest": "86703aba4662c1c2",
+      "audio": "production-audio/v1/audio/202620200322.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200323": {
+      "text": "模樣",
+      "digest": "02ff407a8f2fe611",
+      "audio": "production-audio/v1/audio/202620200323.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200324": {
+      "text": "越過",
+      "digest": "822f7ba0710c36bd",
+      "audio": "production-audio/v1/audio/202620200324.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200325": {
+      "text": "美麗",
+      "digest": "82a16e54e995a701",
+      "audio": "production-audio/v1/audio/202620200325.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200351": {
+      "text": "我跟著老師念走過小巷",
+      "digest": "318e135cf09f695a",
+      "audio": "production-audio/v1/audio/202620200351.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200352": {
+      "text": "老師請我念叔叔",
+      "digest": "e09d7d6b9d849be8",
+      "audio": "production-audio/v1/audio/202620200352.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200353": {
+      "text": "我把小花貓寫在本子上",
+      "digest": "d413752b3e7ea66a",
+      "audio": "production-audio/v1/audio/202620200353.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200354": {
+      "text": "今天練習寫溫暖",
+      "digest": "947e29b368fd4e56",
+      "audio": "production-audio/v1/audio/202620200354.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200355": {
+      "text": "我跟著老師念陽光",
+      "digest": "f232fa221317271c",
+      "audio": "production-audio/v1/audio/202620200355.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200356": {
+      "text": "老師請我念屋前",
+      "digest": "586c957938467298",
+      "audio": "production-audio/v1/audio/202620200356.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200357": {
+      "text": "我把捧花寫在本子上",
+      "digest": "d3ecca010744870f",
+      "audio": "production-audio/v1/audio/202620200357.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200358": {
+      "text": "今天練習寫蝴蝶",
+      "digest": "6d34fbd346c880f7",
+      "audio": "production-audio/v1/audio/202620200358.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200359": {
+      "text": "我跟著老師念忙著",
+      "digest": "5652378d8b61a523",
+      "audio": "production-audio/v1/audio/202620200359.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200360": {
+      "text": "老師請我念娶新娘",
+      "digest": "afd1ec223ba542b0",
+      "audio": "production-audio/v1/audio/202620200360.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200361": {
+      "text": "我把黃彩筆寫在本子上",
+      "digest": "71da78d4fcf5b095",
+      "audio": "production-audio/v1/audio/202620200361.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200362": {
+      "text": "今天練習寫打扮",
+      "digest": "81b441ef427dd080",
+      "audio": "production-audio/v1/audio/202620200362.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200363": {
+      "text": "我跟著老師念模樣",
+      "digest": "d5e1dabd4fb5e0a7",
+      "audio": "production-audio/v1/audio/202620200363.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200364": {
+      "text": "老師請我念越過",
+      "digest": "77a663392af1d116",
+      "audio": "production-audio/v1/audio/202620200364.mp3",
+      "source": "packs/2026康軒小二上-03.json",
+      "ready": true
+    },
+    "202620200365": {
+      "text": "我把美麗寫在本子上",
+      "digest": "fad37a188d047cb8",
+      "audio": "production-audio/v1/audio/202620200365.mp3",
       "source": "packs/2026康軒小二上-03.json",
       "ready": true
     },
@@ -6736,6 +7324,244 @@
       "source": "packs/2026康軒小二上-04.json",
       "ready": true
     },
+    "202620200411": {
+      "text": "白雲飄",
+      "digest": "6c77f05d1aa7e234",
+      "audio": "production-audio/v1/audio/202620200411.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200412": {
+      "text": "運動大會",
+      "digest": "25ae860be1e778bd",
+      "audio": "production-audio/v1/audio/202620200412.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200413": {
+      "text": "正熱鬧",
+      "digest": "39f4a761c9b57013",
+      "audio": "production-audio/v1/audio/202620200413.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200414": {
+      "text": "大會舞",
+      "digest": "ddfefbb173f5ff89",
+      "audio": "production-audio/v1/audio/202620200414.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200415": {
+      "text": "跳哇跳",
+      "digest": "beda7788a67e6340",
+      "audio": "production-audio/v1/audio/202620200415.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200416": {
+      "text": "往上跳",
+      "digest": "601c2ec408f26d02",
+      "audio": "production-audio/v1/audio/202620200416.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200417": {
+      "text": "笑容",
+      "digest": "e18f3628ba683eff",
+      "audio": "production-audio/v1/audio/202620200417.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200418": {
+      "text": "跑步比賽",
+      "digest": "a301a45985f3c300",
+      "audio": "production-audio/v1/audio/202620200418.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200419": {
+      "text": "汗水",
+      "digest": "eca99c30a3a8a4a6",
+      "audio": "production-audio/v1/audio/202620200419.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200420": {
+      "text": "兩人三腳",
+      "digest": "94ed65114e26cc53",
+      "audio": "production-audio/v1/audio/202620200420.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200421": {
+      "text": "同心協力",
+      "digest": "b049f349243c919e",
+      "audio": "production-audio/v1/audio/202620200421.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200422": {
+      "text": "歡樂笑聲",
+      "digest": "f36c897b98b7bf93",
+      "audio": "production-audio/v1/audio/202620200422.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200423": {
+      "text": "拔河",
+      "digest": "50978dde50f1c7cb",
+      "audio": "production-audio/v1/audio/202620200423.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200424": {
+      "text": "比力氣",
+      "digest": "cf045a0b52e6b953",
+      "audio": "production-audio/v1/audio/202620200424.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200425": {
+      "text": "最後",
+      "digest": "5d7144df3bd5a413",
+      "audio": "production-audio/v1/audio/202620200425.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200426": {
+      "text": "聲音可不小",
+      "digest": "4b7667fb1a7f24ae",
+      "audio": "production-audio/v1/audio/202620200426.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200427": {
+      "text": "加油",
+      "digest": "680d3ac5651b5b45",
+      "audio": "production-audio/v1/audio/202620200427.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200451": {
+      "text": "老師請我念白雲飄",
+      "digest": "0c27184456fba423",
+      "audio": "production-audio/v1/audio/202620200451.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200452": {
+      "text": "我把運動大會寫在本子上",
+      "digest": "a8ff50e299e3c108",
+      "audio": "production-audio/v1/audio/202620200452.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200453": {
+      "text": "今天練習寫正熱鬧",
+      "digest": "969c4c20448b1158",
+      "audio": "production-audio/v1/audio/202620200453.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200454": {
+      "text": "我跟著老師念大會舞",
+      "digest": "b3d870766f4e94f9",
+      "audio": "production-audio/v1/audio/202620200454.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200455": {
+      "text": "老師請我念跳哇跳",
+      "digest": "e73dce65dd065608",
+      "audio": "production-audio/v1/audio/202620200455.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200456": {
+      "text": "我把往上跳寫在本子上",
+      "digest": "b78d1d646728b4a8",
+      "audio": "production-audio/v1/audio/202620200456.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200457": {
+      "text": "今天練習寫笑容",
+      "digest": "0791bf46d297632f",
+      "audio": "production-audio/v1/audio/202620200457.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200458": {
+      "text": "我跟著老師念跑步比賽",
+      "digest": "76339b15ca87fb6d",
+      "audio": "production-audio/v1/audio/202620200458.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200459": {
+      "text": "老師請我念汗水",
+      "digest": "c9ba79219be54179",
+      "audio": "production-audio/v1/audio/202620200459.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200460": {
+      "text": "我把兩人三腳寫在本子上",
+      "digest": "e171b8312421fc98",
+      "audio": "production-audio/v1/audio/202620200460.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200461": {
+      "text": "今天練習寫同心協力",
+      "digest": "c17421952337f749",
+      "audio": "production-audio/v1/audio/202620200461.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200462": {
+      "text": "我跟著老師念歡樂笑聲",
+      "digest": "3cc6e3947dd6435b",
+      "audio": "production-audio/v1/audio/202620200462.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200463": {
+      "text": "老師請我念拔河",
+      "digest": "6832cb52fda5248f",
+      "audio": "production-audio/v1/audio/202620200463.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200464": {
+      "text": "我把比力氣寫在本子上",
+      "digest": "cd3101230211f3b9",
+      "audio": "production-audio/v1/audio/202620200464.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200465": {
+      "text": "今天練習寫最後",
+      "digest": "68b8e425cd35209e",
+      "audio": "production-audio/v1/audio/202620200465.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200466": {
+      "text": "我跟著老師念聲音可不小",
+      "digest": "99269230faa0bb1c",
+      "audio": "production-audio/v1/audio/202620200466.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
+    "202620200467": {
+      "text": "老師請我念加油",
+      "digest": "6585ec5622b2f50e",
+      "audio": "production-audio/v1/audio/202620200467.mp3",
+      "source": "packs/2026康軒小二上-04.json",
+      "ready": true
+    },
     "202620200501": {
       "text": "暑假回鄉看竹林",
       "digest": "701c92151e5c4203",
@@ -6803,6 +7629,272 @@
       "text": "一邊划船一邊吹風",
       "digest": "2927c3215ade1e91",
       "audio": "production-audio/v1/audio/202620200510.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200511": {
+      "text": "媽媽的家鄉",
+      "digest": "910b5152c4a1dbab",
+      "audio": "production-audio/v1/audio/202620200511.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200512": {
+      "text": "越南",
+      "digest": "ffca871917f4df6f",
+      "audio": "production-audio/v1/audio/202620200512.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200513": {
+      "text": "暑假",
+      "digest": "06555820ca32fed6",
+      "audio": "production-audio/v1/audio/202620200513.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200514": {
+      "text": "外公帶我們",
+      "digest": "d3d372f74ff11587",
+      "audio": "production-audio/v1/audio/202620200514.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200515": {
+      "text": "竹籃船",
+      "digest": "64111c9c053ca88a",
+      "audio": "production-audio/v1/audio/202620200515.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200516": {
+      "text": "竹片",
+      "digest": "5e41c00e588d72ae",
+      "audio": "production-audio/v1/audio/202620200516.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200517": {
+      "text": "大大的碗公",
+      "digest": "812701130fb08ce4",
+      "audio": "production-audio/v1/audio/202620200517.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200518": {
+      "text": "等我和媽媽",
+      "digest": "ba4b1170bae1f004",
+      "audio": "production-audio/v1/audio/202620200518.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200519": {
+      "text": "跨上船",
+      "digest": "6b3bf6a52ad0f19d",
+      "audio": "production-audio/v1/audio/202620200519.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200520": {
+      "text": "划船",
+      "digest": "577551646d9143bf",
+      "audio": "production-audio/v1/audio/202620200520.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200521": {
+      "text": "美好風光",
+      "digest": "13eee147b1e3c984",
+      "audio": "production-audio/v1/audio/202620200521.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200522": {
+      "text": "風兒吹來",
+      "digest": "5cbdab9802891b7c",
+      "audio": "production-audio/v1/audio/202620200522.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200523": {
+      "text": "一邊拍手",
+      "digest": "596b3537fa3b16ae",
+      "audio": "production-audio/v1/audio/202620200523.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200524": {
+      "text": "一邊叫好",
+      "digest": "232c7ba50837de76",
+      "audio": "production-audio/v1/audio/202620200524.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200525": {
+      "text": "原本",
+      "digest": "90d76fd8bbd1e551",
+      "audio": "production-audio/v1/audio/202620200525.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200526": {
+      "text": "越南人",
+      "digest": "eae87cf2e31b4754",
+      "audio": "production-audio/v1/audio/202620200526.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200527": {
+      "text": "近海捕魚",
+      "digest": "d08002c3fb9b8ade",
+      "audio": "production-audio/v1/audio/202620200527.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200528": {
+      "text": "同樂的活動",
+      "digest": "687a11a5ef528d9c",
+      "audio": "production-audio/v1/audio/202620200528.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200529": {
+      "text": "認識媽媽的家鄉",
+      "digest": "854e3ef145478c99",
+      "audio": "production-audio/v1/audio/202620200529.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200551": {
+      "text": "我把媽媽的家鄉寫在本子上",
+      "digest": "437cc3d5347df11b",
+      "audio": "production-audio/v1/audio/202620200551.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200552": {
+      "text": "今天練習寫越南",
+      "digest": "d4063e872ea3b300",
+      "audio": "production-audio/v1/audio/202620200552.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200553": {
+      "text": "我跟著老師念暑假",
+      "digest": "f2bff6b304343436",
+      "audio": "production-audio/v1/audio/202620200553.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200554": {
+      "text": "老師請我念外公帶我們",
+      "digest": "63f9bc7c4a26359a",
+      "audio": "production-audio/v1/audio/202620200554.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200555": {
+      "text": "我把竹籃船寫在本子上",
+      "digest": "b454f38828a0e15a",
+      "audio": "production-audio/v1/audio/202620200555.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200556": {
+      "text": "今天練習寫竹片",
+      "digest": "0970f30360cfa75c",
+      "audio": "production-audio/v1/audio/202620200556.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200557": {
+      "text": "我跟著老師念大大的碗公",
+      "digest": "8412d2681e23ad37",
+      "audio": "production-audio/v1/audio/202620200557.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200558": {
+      "text": "老師請我念等我和媽媽",
+      "digest": "895d93eec5532b83",
+      "audio": "production-audio/v1/audio/202620200558.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200559": {
+      "text": "我把跨上船寫在本子上",
+      "digest": "61d27a4eaaf70be9",
+      "audio": "production-audio/v1/audio/202620200559.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200560": {
+      "text": "今天練習寫划船",
+      "digest": "928bc24a8c9b542c",
+      "audio": "production-audio/v1/audio/202620200560.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200561": {
+      "text": "我跟著老師念美好風光",
+      "digest": "72556e2503fa4755",
+      "audio": "production-audio/v1/audio/202620200561.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200562": {
+      "text": "老師請我念風兒吹來",
+      "digest": "3242f200d4a68ab3",
+      "audio": "production-audio/v1/audio/202620200562.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200563": {
+      "text": "我把一邊拍手寫在本子上",
+      "digest": "11880192dc867826",
+      "audio": "production-audio/v1/audio/202620200563.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200564": {
+      "text": "今天練習寫一邊叫好",
+      "digest": "88d532dbcca6a93c",
+      "audio": "production-audio/v1/audio/202620200564.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200565": {
+      "text": "我跟著老師念原本",
+      "digest": "23402572651afd45",
+      "audio": "production-audio/v1/audio/202620200565.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200566": {
+      "text": "老師請我念越南人",
+      "digest": "d7428a709c6d1923",
+      "audio": "production-audio/v1/audio/202620200566.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200567": {
+      "text": "我把近海捕魚寫在本子上",
+      "digest": "d9f2a3bcc2b14aea",
+      "audio": "production-audio/v1/audio/202620200567.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200568": {
+      "text": "今天練習寫同樂的活動",
+      "digest": "7757d385e10f3dda",
+      "audio": "production-audio/v1/audio/202620200568.mp3",
+      "source": "packs/2026康軒小二上-05.json",
+      "ready": true
+    },
+    "202620200569": {
+      "text": "我跟著老師念認識媽媽的家鄉",
+      "digest": "65723d3f0691fff2",
+      "audio": "production-audio/v1/audio/202620200569.mp3",
       "source": "packs/2026康軒小二上-05.json",
       "ready": true
     },
@@ -6876,6 +7968,230 @@
       "source": "packs/2026康軒小二上-06.json",
       "ready": true
     },
+    "202620200611": {
+      "text": "柿餅節",
+      "digest": "7f1a0fbb206003df",
+      "audio": "production-audio/v1/audio/202620200611.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200612": {
+      "text": "新埔小鎮",
+      "digest": "15b35faafdee3ab0",
+      "audio": "production-audio/v1/audio/202620200612.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200613": {
+      "text": "因此",
+      "digest": "10bd9fd5fb613468",
+      "audio": "production-audio/v1/audio/202620200613.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200614": {
+      "text": "走進小鎮",
+      "digest": "333ba92d8ba9a431",
+      "audio": "production-audio/v1/audio/202620200614.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200615": {
+      "text": "排了很多柿子",
+      "digest": "04f87c576b7afe5e",
+      "audio": "production-audio/v1/audio/202620200615.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200616": {
+      "text": "遠看",
+      "digest": "7d6da28011ffd7cc",
+      "audio": "production-audio/v1/audio/202620200616.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200617": {
+      "text": "金黃色",
+      "digest": "e795d605c564b332",
+      "audio": "production-audio/v1/audio/202620200617.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200618": {
+      "text": "可愛",
+      "digest": "1d5a131227804b1a",
+      "audio": "production-audio/v1/audio/202620200618.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200619": {
+      "text": "九月到十二月",
+      "digest": "2aea70f4f9750380",
+      "audio": "production-audio/v1/audio/202620200619.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200620": {
+      "text": "風乾",
+      "digest": "31215c95231097ea",
+      "audio": "production-audio/v1/audio/202620200620.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200621": {
+      "text": "又香又甜",
+      "digest": "4351332834247215",
+      "audio": "production-audio/v1/audio/202620200621.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200622": {
+      "text": "遊客",
+      "digest": "cdaa98ca85235841",
+      "audio": "production-audio/v1/audio/202620200622.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200623": {
+      "text": "客家菜",
+      "digest": "dcbda4ef75efa071",
+      "audio": "production-audio/v1/audio/202620200623.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200624": {
+      "text": "買柿餅",
+      "digest": "05181b44ddb4b62a",
+      "audio": "production-audio/v1/audio/202620200624.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200625": {
+      "text": "親朋好友",
+      "digest": "1a19982bb07d4f91",
+      "audio": "production-audio/v1/audio/202620200625.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200626": {
+      "text": "如意",
+      "digest": "6857583b714a8f4f",
+      "audio": "production-audio/v1/audio/202620200626.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200651": {
+      "text": "今天練習寫柿餅節",
+      "digest": "3f970faa53fba2b4",
+      "audio": "production-audio/v1/audio/202620200651.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200652": {
+      "text": "我跟著老師念新埔小鎮",
+      "digest": "3cac6e6c93224268",
+      "audio": "production-audio/v1/audio/202620200652.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200653": {
+      "text": "老師請我念因此",
+      "digest": "721dd5b807da4cfa",
+      "audio": "production-audio/v1/audio/202620200653.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200654": {
+      "text": "我把走進小鎮寫在本子上",
+      "digest": "73d480c7ad05c1cf",
+      "audio": "production-audio/v1/audio/202620200654.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200655": {
+      "text": "今天練習寫排了很多柿子",
+      "digest": "f8f1800db0195019",
+      "audio": "production-audio/v1/audio/202620200655.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200656": {
+      "text": "我跟著老師念遠看",
+      "digest": "cf5c9314caed0760",
+      "audio": "production-audio/v1/audio/202620200656.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200657": {
+      "text": "老師請我念金黃色",
+      "digest": "e1accc3af1550d03",
+      "audio": "production-audio/v1/audio/202620200657.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200658": {
+      "text": "我把可愛寫在本子上",
+      "digest": "431e8bd498d99b12",
+      "audio": "production-audio/v1/audio/202620200658.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200659": {
+      "text": "今天練習寫九月到十二月",
+      "digest": "3db1c5e89c4db26c",
+      "audio": "production-audio/v1/audio/202620200659.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200660": {
+      "text": "我跟著老師念風乾",
+      "digest": "c6ad00331fb09f80",
+      "audio": "production-audio/v1/audio/202620200660.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200661": {
+      "text": "老師請我念又香又甜",
+      "digest": "faee8414cfe5e187",
+      "audio": "production-audio/v1/audio/202620200661.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200662": {
+      "text": "我把遊客寫在本子上",
+      "digest": "9a009fa539a93526",
+      "audio": "production-audio/v1/audio/202620200662.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200663": {
+      "text": "今天練習寫客家菜",
+      "digest": "37bd28d0d45f518b",
+      "audio": "production-audio/v1/audio/202620200663.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200664": {
+      "text": "我跟著老師念買柿餅",
+      "digest": "1a394e90bf11a74e",
+      "audio": "production-audio/v1/audio/202620200664.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200665": {
+      "text": "老師請我念親朋好友",
+      "digest": "c143e30162ca1fa6",
+      "audio": "production-audio/v1/audio/202620200665.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
+    "202620200666": {
+      "text": "我把如意寫在本子上",
+      "digest": "aee351a0642c8196",
+      "audio": "production-audio/v1/audio/202620200666.mp3",
+      "source": "packs/2026康軒小二上-06.json",
+      "ready": true
+    },
     "202620200701": {
       "text": "胖胖孩子穿新衣",
       "digest": "14bbc69ddeb4f8ee",
@@ -6943,6 +8259,216 @@
       "text": "聰明眼神讓人印象深",
       "digest": "886310c4223db201",
       "audio": "production-audio/v1/audio/202620200710.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200711": {
+      "text": "胖胖國王",
+      "digest": "9868ced09f75808b",
+      "audio": "production-audio/v1/audio/202620200711.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200712": {
+      "text": "新衣裳",
+      "digest": "30fcc6bbc30f9a1b",
+      "audio": "production-audio/v1/audio/202620200712.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200713": {
+      "text": "一針一線",
+      "digest": "9b5d44e9125092f1",
+      "audio": "production-audio/v1/audio/202620200713.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200714": {
+      "text": "不簡單",
+      "digest": "229ecf7113fe179e",
+      "audio": "production-audio/v1/audio/202620200714.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200715": {
+      "text": "聰明的人",
+      "digest": "b773b7fb8a429a4d",
+      "audio": "production-audio/v1/audio/202620200715.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200716": {
+      "text": "大臣",
+      "digest": "c727816151ae731f",
+      "audio": "production-audio/v1/audio/202620200716.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200717": {
+      "text": "不敢說出口",
+      "digest": "77f87fb6948162e9",
+      "audio": "production-audio/v1/audio/202620200717.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200718": {
+      "text": "東西",
+      "digest": "31ef5b57a3ac1da1",
+      "audio": "production-audio/v1/audio/202620200718.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200719": {
+      "text": "一直說好棒",
+      "digest": "a92c10863f9a5b30",
+      "audio": "production-audio/v1/audio/202620200719.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200720": {
+      "text": "大街上",
+      "digest": "d6ef2773ca926f28",
+      "audio": "production-audio/v1/audio/202620200720.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200721": {
+      "text": "滿街的人",
+      "digest": "a33791ddead89570",
+      "audio": "production-audio/v1/audio/202620200721.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200722": {
+      "text": "張大雙眼",
+      "digest": "abcec59cf4e0c4fc",
+      "audio": "production-audio/v1/audio/202620200722.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200723": {
+      "text": "看哪看",
+      "digest": "79e630670e9c04eb",
+      "audio": "production-audio/v1/audio/202620200723.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200724": {
+      "text": "左思右想",
+      "digest": "12bc125b9c277bdc",
+      "audio": "production-audio/v1/audio/202620200724.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200725": {
+      "text": "新衣",
+      "digest": "93b1b46dbb510e50",
+      "audio": "production-audio/v1/audio/202620200725.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200751": {
+      "text": "我跟著老師念胖胖國王",
+      "digest": "6608469d64a40bae",
+      "audio": "production-audio/v1/audio/202620200751.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200752": {
+      "text": "老師請我念新衣裳",
+      "digest": "9b78fb982330f464",
+      "audio": "production-audio/v1/audio/202620200752.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200753": {
+      "text": "我把一針一線寫在本子上",
+      "digest": "ecf3382862d4e874",
+      "audio": "production-audio/v1/audio/202620200753.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200754": {
+      "text": "今天練習寫不簡單",
+      "digest": "5bcf2c876ef6f95d",
+      "audio": "production-audio/v1/audio/202620200754.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200755": {
+      "text": "我跟著老師念聰明的人",
+      "digest": "21739f00aa03a4bd",
+      "audio": "production-audio/v1/audio/202620200755.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200756": {
+      "text": "老師請我念大臣",
+      "digest": "430bee3537c6b8f0",
+      "audio": "production-audio/v1/audio/202620200756.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200757": {
+      "text": "我把不敢說出口寫在本子上",
+      "digest": "9aceb36636259c97",
+      "audio": "production-audio/v1/audio/202620200757.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200758": {
+      "text": "今天練習寫東西",
+      "digest": "168db00781c1f348",
+      "audio": "production-audio/v1/audio/202620200758.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200759": {
+      "text": "我跟著老師念一直說好棒",
+      "digest": "51f3c05599faa84b",
+      "audio": "production-audio/v1/audio/202620200759.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200760": {
+      "text": "老師請我念大街上",
+      "digest": "c036a14af0066599",
+      "audio": "production-audio/v1/audio/202620200760.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200761": {
+      "text": "我把滿街的人寫在本子上",
+      "digest": "17a5f7b0e17f4aed",
+      "audio": "production-audio/v1/audio/202620200761.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200762": {
+      "text": "今天練習寫張大雙眼",
+      "digest": "e15829d2dab63843",
+      "audio": "production-audio/v1/audio/202620200762.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200763": {
+      "text": "我跟著老師念看哪看",
+      "digest": "f3baf38a850f407f",
+      "audio": "production-audio/v1/audio/202620200763.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200764": {
+      "text": "老師請我念左思右想",
+      "digest": "b35e2e02778903fb",
+      "audio": "production-audio/v1/audio/202620200764.mp3",
+      "source": "packs/2026康軒小二上-07.json",
+      "ready": true
+    },
+    "202620200765": {
+      "text": "我把新衣寫在本子上",
+      "digest": "a1894663dc8c13c3",
+      "audio": "production-audio/v1/audio/202620200765.mp3",
       "source": "packs/2026康軒小二上-07.json",
       "ready": true
     },
@@ -7016,6 +8542,202 @@
       "source": "packs/2026康軒小二上-08.json",
       "ready": true
     },
+    "202620200811": {
+      "text": "口渴的烏鴉",
+      "digest": "dcda3ba9df0aa4ac",
+      "audio": "production-audio/v1/audio/202620200811.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200812": {
+      "text": "好方法",
+      "digest": "c85a55c811503ad2",
+      "audio": "production-audio/v1/audio/202620200812.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200813": {
+      "text": "森林裡",
+      "digest": "dff339fb2344bdf0",
+      "audio": "production-audio/v1/audio/202620200813.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200814": {
+      "text": "動物們",
+      "digest": "34f5676fd2dfe902",
+      "audio": "production-audio/v1/audio/202620200814.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200815": {
+      "text": "外地旅行",
+      "digest": "f807a33a86168c5d",
+      "audio": "production-audio/v1/audio/202620200815.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200816": {
+      "text": "中午",
+      "digest": "0a03c3e10a4dbac5",
+      "audio": "production-audio/v1/audio/202620200816.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200817": {
+      "text": "又熱又渴",
+      "digest": "41de494f4d057f7e",
+      "audio": "production-audio/v1/audio/202620200817.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200818": {
+      "text": "裝有半瓶水",
+      "digest": "9a213b10a733cd15",
+      "audio": "production-audio/v1/audio/202620200818.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200819": {
+      "text": "許多小石頭",
+      "digest": "a434533e05b611ee",
+      "audio": "production-audio/v1/audio/202620200819.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200820": {
+      "text": "難道",
+      "digest": "aa81e0049c09f3d0",
+      "audio": "production-audio/v1/audio/202620200820.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200821": {
+      "text": "忘了",
+      "digest": "73832b0f815a9467",
+      "audio": "production-audio/v1/audio/202620200821.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200822": {
+      "text": "烏鴉喝水",
+      "digest": "a1e591fdb5504b7b",
+      "audio": "production-audio/v1/audio/202620200822.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200823": {
+      "text": "哈哈哈",
+      "digest": "ec814e9a0469fd65",
+      "audio": "production-audio/v1/audio/202620200823.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200824": {
+      "text": "但是",
+      "digest": "8b5eb8b164780a9a",
+      "audio": "production-audio/v1/audio/202620200824.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200851": {
+      "text": "老師請我念口渴的烏鴉",
+      "digest": "4e8cc87a3efa7fc1",
+      "audio": "production-audio/v1/audio/202620200851.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200852": {
+      "text": "我把好方法寫在本子上",
+      "digest": "a17ac1dd66460361",
+      "audio": "production-audio/v1/audio/202620200852.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200853": {
+      "text": "今天練習寫森林裡",
+      "digest": "e56f77d1d86ca523",
+      "audio": "production-audio/v1/audio/202620200853.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200854": {
+      "text": "我跟著老師念動物們",
+      "digest": "3ed8349ea0ecba1c",
+      "audio": "production-audio/v1/audio/202620200854.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200855": {
+      "text": "老師請我念外地旅行",
+      "digest": "d891554976534a3a",
+      "audio": "production-audio/v1/audio/202620200855.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200856": {
+      "text": "我把中午寫在本子上",
+      "digest": "4634a69b3f20ea02",
+      "audio": "production-audio/v1/audio/202620200856.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200857": {
+      "text": "今天練習寫又熱又渴",
+      "digest": "bdfbad8499c1a2f6",
+      "audio": "production-audio/v1/audio/202620200857.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200858": {
+      "text": "我跟著老師念裝有半瓶水",
+      "digest": "078740123436ee69",
+      "audio": "production-audio/v1/audio/202620200858.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200859": {
+      "text": "老師請我念許多小石頭",
+      "digest": "170906c4701a4067",
+      "audio": "production-audio/v1/audio/202620200859.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200860": {
+      "text": "我把難道寫在本子上",
+      "digest": "e78885cc07bdc5a5",
+      "audio": "production-audio/v1/audio/202620200860.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200861": {
+      "text": "今天練習寫忘了",
+      "digest": "e1c7d9f228408e21",
+      "audio": "production-audio/v1/audio/202620200861.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200862": {
+      "text": "我跟著老師念烏鴉喝水",
+      "digest": "7abf070dc32e6397",
+      "audio": "production-audio/v1/audio/202620200862.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200863": {
+      "text": "老師請我念哈哈哈",
+      "digest": "5c7022e81ceb9e4b",
+      "audio": "production-audio/v1/audio/202620200863.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
+    "202620200864": {
+      "text": "我把但是寫在本子上",
+      "digest": "c77b82c293df7366",
+      "audio": "production-audio/v1/audio/202620200864.mp3",
+      "source": "packs/2026康軒小二上-08.json",
+      "ready": true
+    },
     "202620200901": {
       "text": "大象有粗粗的腿",
       "digest": "b35edc482be8226e",
@@ -7083,6 +8805,230 @@
       "text": "大象竟然不怕水",
       "digest": "dab0016a40c1c6a5",
       "audio": "production-audio/v1/audio/202620200910.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200911": {
+      "text": "曹操",
+      "digest": "9973475a5b238f54",
+      "audio": "production-audio/v1/audio/202620200911.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200912": {
+      "text": "大象",
+      "digest": "44ef4be9c8ea9fb8",
+      "audio": "production-audio/v1/audio/202620200912.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200913": {
+      "text": "粗大的腿",
+      "digest": "c78da83656f8100a",
+      "audio": "production-audio/v1/audio/202620200913.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200914": {
+      "text": "像柱子",
+      "digest": "d6980d0532f09a2b",
+      "audio": "production-audio/v1/audio/202620200914.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200915": {
+      "text": "砍下大樹",
+      "digest": "de68feccf49cdc98",
+      "audio": "production-audio/v1/audio/202620200915.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200916": {
+      "text": "好幾部分",
+      "digest": "921c74db17fd27f5",
+      "audio": "production-audio/v1/audio/202620200916.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200917": {
+      "text": "直搖頭",
+      "digest": "a752526ed3625895",
+      "audio": "production-audio/v1/audio/202620200917.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200918": {
+      "text": "曹沖",
+      "digest": "d73c42d9af7790f0",
+      "audio": "production-audio/v1/audio/202620200918.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200919": {
+      "text": "好方法",
+      "digest": "2b4db206b784ba7f",
+      "audio": "production-audio/v1/audio/202620200919.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200920": {
+      "text": "首先",
+      "digest": "7b871804d4fac35a",
+      "audio": "production-audio/v1/audio/202620200920.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200921": {
+      "text": "牽到大船上",
+      "digest": "f4e5d854ff72a5ae",
+      "audio": "production-audio/v1/audio/202620200921.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200922": {
+      "text": "下沉多少",
+      "digest": "30e6d70df2ce9ed1",
+      "audio": "production-audio/v1/audio/202620200922.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200923": {
+      "text": "沿著水面",
+      "digest": "50e445941aeb00bc",
+      "audio": "production-audio/v1/audio/202620200923.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200924": {
+      "text": "然後",
+      "digest": "ccc93da78f8812d3",
+      "audio": "production-audio/v1/audio/202620200924.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200925": {
+      "text": "年紀",
+      "digest": "ac7055a2cf5bdaba",
+      "audio": "production-audio/v1/audio/202620200925.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200926": {
+      "text": "竟然",
+      "digest": "51838b4a8c6fc347",
+      "audio": "production-audio/v1/audio/202620200926.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200951": {
+      "text": "我把曹操寫在本子上",
+      "digest": "bc6346b0b8ce86ed",
+      "audio": "production-audio/v1/audio/202620200951.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200952": {
+      "text": "今天練習寫大象",
+      "digest": "106badb77e2459a2",
+      "audio": "production-audio/v1/audio/202620200952.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200953": {
+      "text": "我跟著老師念粗大的腿",
+      "digest": "9b32801b8ae6e156",
+      "audio": "production-audio/v1/audio/202620200953.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200954": {
+      "text": "老師請我念像柱子",
+      "digest": "5938f2185cc18853",
+      "audio": "production-audio/v1/audio/202620200954.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200955": {
+      "text": "我把砍下大樹寫在本子上",
+      "digest": "37f381356467f462",
+      "audio": "production-audio/v1/audio/202620200955.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200956": {
+      "text": "今天練習寫好幾部分",
+      "digest": "664ffed4a454be16",
+      "audio": "production-audio/v1/audio/202620200956.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200957": {
+      "text": "我跟著老師念直搖頭",
+      "digest": "3f769c3b1cf427e0",
+      "audio": "production-audio/v1/audio/202620200957.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200958": {
+      "text": "老師請我念曹沖",
+      "digest": "a5fd684e3b25cd6d",
+      "audio": "production-audio/v1/audio/202620200958.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200959": {
+      "text": "今天練習寫好方法",
+      "digest": "5885dddde87d5403",
+      "audio": "production-audio/v1/audio/202620200959.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200960": {
+      "text": "今天練習寫首先",
+      "digest": "7059719f330ab7cd",
+      "audio": "production-audio/v1/audio/202620200960.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200961": {
+      "text": "我跟著老師念牽到大船上",
+      "digest": "81985d50d28dbec3",
+      "audio": "production-audio/v1/audio/202620200961.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200962": {
+      "text": "老師請我念下沉多少",
+      "digest": "8ff46ad421e9ee0a",
+      "audio": "production-audio/v1/audio/202620200962.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200963": {
+      "text": "我把沿著水面寫在本子上",
+      "digest": "a683202bfa6e957b",
+      "audio": "production-audio/v1/audio/202620200963.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200964": {
+      "text": "今天練習寫然後",
+      "digest": "a29df45fec6b1fc5",
+      "audio": "production-audio/v1/audio/202620200964.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200965": {
+      "text": "我跟著老師念年紀",
+      "digest": "255cc08311b5c2d3",
+      "audio": "production-audio/v1/audio/202620200965.mp3",
+      "source": "packs/2026康軒小二上-09.json",
+      "ready": true
+    },
+    "202620200966": {
+      "text": "老師請我念竟然",
+      "digest": "04a5d119d6ae4d92",
+      "audio": "production-audio/v1/audio/202620200966.mp3",
       "source": "packs/2026康軒小二上-09.json",
       "ready": true
     },
@@ -7156,6 +9102,230 @@
       "source": "packs/2026康軒小二上-10.json",
       "ready": true
     },
+    "202620201011": {
+      "text": "雪梨",
+      "digest": "8a08b6e6005dbb95",
+      "audio": "production-audio/v1/audio/202620201011.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201012": {
+      "text": "跨年夜",
+      "digest": "58cd4b861dca4033",
+      "audio": "production-audio/v1/audio/202620201012.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201013": {
+      "text": "卻不是",
+      "digest": "45b9aeacdae50d68",
+      "audio": "production-audio/v1/audio/202620201013.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201014": {
+      "text": "冷冷的冬天",
+      "digest": "f760b46cb68060e2",
+      "audio": "production-audio/v1/audio/202620201014.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201015": {
+      "text": "臺灣",
+      "digest": "18745c45333e7467",
+      "audio": "production-audio/v1/audio/202620201015.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201016": {
+      "text": "季節正好相反",
+      "digest": "4048082f58455e43",
+      "audio": "production-audio/v1/audio/202620201016.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201017": {
+      "text": "煙火",
+      "digest": "cc5fef6558964955",
+      "audio": "production-audio/v1/audio/202620201017.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201018": {
+      "text": "等待",
+      "digest": "1ae941dbaa0c47ff",
+      "audio": "production-audio/v1/audio/202620201018.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201019": {
+      "text": "午夜十二點",
+      "digest": "7ae6ec5348c909c2",
+      "audio": "production-audio/v1/audio/202620201019.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201020": {
+      "text": "相片",
+      "digest": "9295eb8a7fcb0bbc",
+      "audio": "production-audio/v1/audio/202620201020.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201021": {
+      "text": "雖然美麗",
+      "digest": "ee651536c0f57121",
+      "audio": "production-audio/v1/audio/202620201021.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201022": {
+      "text": "春節",
+      "digest": "c06bc1c23a41d2b1",
+      "audio": "production-audio/v1/audio/202620201022.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201023": {
+      "text": "買年貨",
+      "digest": "4b485b08172027c1",
+      "audio": "production-audio/v1/audio/202620201023.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201024": {
+      "text": "期待",
+      "digest": "a30e206ba8acfbbc",
+      "audio": "production-audio/v1/audio/202620201024.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201025": {
+      "text": "年夜飯",
+      "digest": "ff2158651a410382",
+      "audio": "production-audio/v1/audio/202620201025.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201026": {
+      "text": "新年快樂",
+      "digest": "887e1c5e1a72d554",
+      "audio": "production-audio/v1/audio/202620201026.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201051": {
+      "text": "今天練習寫雪梨",
+      "digest": "2354d51e4b5f261a",
+      "audio": "production-audio/v1/audio/202620201051.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201052": {
+      "text": "我跟著老師念跨年夜",
+      "digest": "84f9ed14f0fc0abc",
+      "audio": "production-audio/v1/audio/202620201052.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201053": {
+      "text": "老師請我念卻不是",
+      "digest": "22ef79b34a336f79",
+      "audio": "production-audio/v1/audio/202620201053.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201054": {
+      "text": "我把冷冷的冬天寫在本子上",
+      "digest": "90481c4c68f3e7a9",
+      "audio": "production-audio/v1/audio/202620201054.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201055": {
+      "text": "今天練習寫臺灣",
+      "digest": "e096ea49bf30ceb0",
+      "audio": "production-audio/v1/audio/202620201055.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201056": {
+      "text": "我跟著老師念季節正好相反",
+      "digest": "bca4bc42b58ffeef",
+      "audio": "production-audio/v1/audio/202620201056.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201057": {
+      "text": "老師請我念煙火",
+      "digest": "9cbed116f007aabc",
+      "audio": "production-audio/v1/audio/202620201057.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201058": {
+      "text": "我把等待寫在本子上",
+      "digest": "4534f56f714b637d",
+      "audio": "production-audio/v1/audio/202620201058.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201059": {
+      "text": "今天練習寫午夜十二點",
+      "digest": "69d9a6d3fce9ee57",
+      "audio": "production-audio/v1/audio/202620201059.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201060": {
+      "text": "我跟著老師念相片",
+      "digest": "72ee13bc0a59334a",
+      "audio": "production-audio/v1/audio/202620201060.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201061": {
+      "text": "老師請我念雖然美麗",
+      "digest": "96a0c1b17a7d4ade",
+      "audio": "production-audio/v1/audio/202620201061.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201062": {
+      "text": "我把春節寫在本子上",
+      "digest": "c048202c0dedbcb9",
+      "audio": "production-audio/v1/audio/202620201062.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201063": {
+      "text": "今天練習寫買年貨",
+      "digest": "1916aa6b5a13eecb",
+      "audio": "production-audio/v1/audio/202620201063.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201064": {
+      "text": "我跟著老師念期待",
+      "digest": "4aa7e995e134b0d7",
+      "audio": "production-audio/v1/audio/202620201064.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201065": {
+      "text": "老師請我念年夜飯",
+      "digest": "10af3a06b1cfccaa",
+      "audio": "production-audio/v1/audio/202620201065.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
+    "202620201066": {
+      "text": "我把新年快樂寫在本子上",
+      "digest": "82bace5cba8d9e6f",
+      "audio": "production-audio/v1/audio/202620201066.mp3",
+      "source": "packs/2026康軒小二上-10.json",
+      "ready": true
+    },
     "202620201101": {
       "text": "黑皮戴著面具",
       "digest": "1089b446c2bb66cf",
@@ -7226,6 +9396,244 @@
       "source": "packs/2026康軒小二上-11.json",
       "ready": true
     },
+    "202620201111": {
+      "text": "黑皮",
+      "digest": "f2c2f53cd1485ba8",
+      "audio": "production-audio/v1/audio/202620201111.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201112": {
+      "text": "黑色的面具",
+      "digest": "f96fd6eafecf7361",
+      "audio": "production-audio/v1/audio/202620201112.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201113": {
+      "text": "美麗的舞者",
+      "digest": "711bd5c05629e794",
+      "audio": "production-audio/v1/audio/202620201113.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201114": {
+      "text": "越過海洋",
+      "digest": "92703feae79f8791",
+      "audio": "production-audio/v1/audio/202620201114.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201115": {
+      "text": "寒冷的北方",
+      "digest": "6afb66efe8ddbc1e",
+      "audio": "production-audio/v1/audio/202620201115.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201116": {
+      "text": "大嘴",
+      "digest": "3a4b13d6fb724c2b",
+      "audio": "production-audio/v1/audio/202620201116.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201117": {
+      "text": "伸進水中",
+      "digest": "73343a699e2b8c13",
+      "audio": "production-audio/v1/audio/202620201117.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201118": {
+      "text": "吃得好飽",
+      "digest": "a2076c39577fcb21",
+      "audio": "production-audio/v1/audio/202620201118.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201119": {
+      "text": "沙子",
+      "digest": "ada07acf35f47788",
+      "audio": "production-audio/v1/audio/202620201119.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201120": {
+      "text": "著急",
+      "digest": "e0766ca155ca0336",
+      "audio": "production-audio/v1/audio/202620201120.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201121": {
+      "text": "衣服",
+      "digest": "900ed7bfb74d47c3",
+      "audio": "production-audio/v1/audio/202620201121.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201122": {
+      "text": "站在水中",
+      "digest": "84a4f6cdc2baa800",
+      "audio": "production-audio/v1/audio/202620201122.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201123": {
+      "text": "翅膀",
+      "digest": "f090751779501b48",
+      "audio": "production-audio/v1/audio/202620201123.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201124": {
+      "text": "充滿",
+      "digest": "be9998b69eba9dad",
+      "audio": "production-audio/v1/audio/202620201124.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201125": {
+      "text": "思念的故鄉",
+      "digest": "ee9eff47eb68e65d",
+      "audio": "production-audio/v1/audio/202620201125.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201126": {
+      "text": "飛往南方",
+      "digest": "0f8e64cad8264e9d",
+      "audio": "production-audio/v1/audio/202620201126.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201127": {
+      "text": "忙著",
+      "digest": "2031830c9d7edfcb",
+      "audio": "production-audio/v1/audio/202620201127.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201151": {
+      "text": "我跟著老師念黑皮",
+      "digest": "242e17ce851278b2",
+      "audio": "production-audio/v1/audio/202620201151.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201152": {
+      "text": "老師請我念黑色的面具",
+      "digest": "56c2992ab24a9bed",
+      "audio": "production-audio/v1/audio/202620201152.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201153": {
+      "text": "我把美麗的舞者寫在本子上",
+      "digest": "0a806172c2f83d4b",
+      "audio": "production-audio/v1/audio/202620201153.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201154": {
+      "text": "今天練習寫越過海洋",
+      "digest": "35954d80d6415487",
+      "audio": "production-audio/v1/audio/202620201154.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201155": {
+      "text": "我跟著老師念寒冷的北方",
+      "digest": "d2244c0a7ba93824",
+      "audio": "production-audio/v1/audio/202620201155.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201156": {
+      "text": "老師請我念大嘴",
+      "digest": "3c6d8e87e8342414",
+      "audio": "production-audio/v1/audio/202620201156.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201157": {
+      "text": "我把伸進水中寫在本子上",
+      "digest": "2d08d4aa04767aea",
+      "audio": "production-audio/v1/audio/202620201157.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201158": {
+      "text": "今天練習寫吃得好飽",
+      "digest": "b5254dbe043bba47",
+      "audio": "production-audio/v1/audio/202620201158.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201159": {
+      "text": "我跟著老師念沙子",
+      "digest": "7a684961aa06f352",
+      "audio": "production-audio/v1/audio/202620201159.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201160": {
+      "text": "老師請我念著急",
+      "digest": "312900bc89c2780f",
+      "audio": "production-audio/v1/audio/202620201160.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201161": {
+      "text": "我把衣服寫在本子上",
+      "digest": "4cacb117f6bade88",
+      "audio": "production-audio/v1/audio/202620201161.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201162": {
+      "text": "今天練習寫站在水中",
+      "digest": "0ca0fe1fe2a57cba",
+      "audio": "production-audio/v1/audio/202620201162.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201163": {
+      "text": "我跟著老師念翅膀",
+      "digest": "0aeebd96bbd6c7c3",
+      "audio": "production-audio/v1/audio/202620201163.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201164": {
+      "text": "老師請我念充滿",
+      "digest": "182cfe03abd6e020",
+      "audio": "production-audio/v1/audio/202620201164.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201165": {
+      "text": "我把思念的故鄉寫在本子上",
+      "digest": "f5de40fc8db310dd",
+      "audio": "production-audio/v1/audio/202620201165.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201166": {
+      "text": "今天練習寫飛往南方",
+      "digest": "2c53a9e4a967cf61",
+      "audio": "production-audio/v1/audio/202620201166.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
+    "202620201167": {
+      "text": "老師請我念忙著",
+      "digest": "eddfe6505622a40e",
+      "audio": "production-audio/v1/audio/202620201167.mp3",
+      "source": "packs/2026康軒小二上-11.json",
+      "ready": true
+    },
     "202620201201": {
       "text": "灰灰天空吹著涼風",
       "digest": "096dcc358a6a4114",
@@ -7293,6 +9701,202 @@
       "text": "冬天有美妙幸福時光",
       "digest": "cf7e6ef1e94bb4a0",
       "audio": "production-audio/v1/audio/202620201210.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201211": {
+      "text": "天空灰灰的",
+      "digest": "e4da82e53e39a681",
+      "audio": "production-audio/v1/audio/202620201211.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201212": {
+      "text": "北風涼涼的",
+      "digest": "b89c082b77042886",
+      "audio": "production-audio/v1/audio/202620201212.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201213": {
+      "text": "牠們",
+      "digest": "f5a6c569cba85a4b",
+      "audio": "production-audio/v1/audio/202620201213.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201214": {
+      "text": "圓鼓鼓的",
+      "digest": "63802c0ffb277a23",
+      "audio": "production-audio/v1/audio/202620201214.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201215": {
+      "text": "熱絡的聊天",
+      "digest": "3deaed094f395b6c",
+      "audio": "production-audio/v1/audio/202620201215.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201216": {
+      "text": "欣喜的發現",
+      "digest": "3f42c6bbca8b49f2",
+      "audio": "production-audio/v1/audio/202620201216.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201217": {
+      "text": "居然會冒煙",
+      "digest": "a97fb32219abb200",
+      "audio": "production-audio/v1/audio/202620201217.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201218": {
+      "text": "北風冰冰的",
+      "digest": "5cae0796eef59b1a",
+      "audio": "production-audio/v1/audio/202620201218.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201219": {
+      "text": "家人圍著飯桌",
+      "digest": "ae192665ec72adb9",
+      "audio": "production-audio/v1/audio/202620201219.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201220": {
+      "text": "笑咪咪的",
+      "digest": "8479c1bc8850ed20",
+      "audio": "production-audio/v1/audio/202620201220.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201221": {
+      "text": "幸福的團聚",
+      "digest": "5d29d4a8dae6b790",
+      "audio": "production-audio/v1/audio/202620201221.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201222": {
+      "text": "愉快的享用",
+      "digest": "0a709937757f2346",
+      "audio": "production-audio/v1/audio/202620201222.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201223": {
+      "text": "火鍋",
+      "digest": "d7069975812686f9",
+      "audio": "production-audio/v1/audio/202620201223.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201224": {
+      "text": "美妙的冬天",
+      "digest": "accbb2d67607d8e8",
+      "audio": "production-audio/v1/audio/202620201224.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201251": {
+      "text": "老師請我念天空灰灰的",
+      "digest": "a0f0deeaa2b8fe1c",
+      "audio": "production-audio/v1/audio/202620201251.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201252": {
+      "text": "我把北風涼涼的寫在本子上",
+      "digest": "ae4d53cb54a39a28",
+      "audio": "production-audio/v1/audio/202620201252.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201253": {
+      "text": "今天練習寫牠們",
+      "digest": "2e61274f7e720cb3",
+      "audio": "production-audio/v1/audio/202620201253.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201254": {
+      "text": "我跟著老師念圓鼓鼓的",
+      "digest": "872df41a03741def",
+      "audio": "production-audio/v1/audio/202620201254.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201255": {
+      "text": "老師請我念熱絡的聊天",
+      "digest": "127c38c2007a17c2",
+      "audio": "production-audio/v1/audio/202620201255.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201256": {
+      "text": "我把欣喜的發現寫在本子上",
+      "digest": "e4872c4e6708e751",
+      "audio": "production-audio/v1/audio/202620201256.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201257": {
+      "text": "今天練習寫居然會冒煙",
+      "digest": "e8bf4d652dad9d5a",
+      "audio": "production-audio/v1/audio/202620201257.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201258": {
+      "text": "我跟著老師念北風冰冰的",
+      "digest": "961303394da028c2",
+      "audio": "production-audio/v1/audio/202620201258.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201259": {
+      "text": "老師請我念家人圍著飯桌",
+      "digest": "6585a0c324a737d1",
+      "audio": "production-audio/v1/audio/202620201259.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201260": {
+      "text": "我把笑咪咪的寫在本子上",
+      "digest": "bbaedc4cbe0a0d0a",
+      "audio": "production-audio/v1/audio/202620201260.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201261": {
+      "text": "今天練習寫幸福的團聚",
+      "digest": "a6b120d7fff58c27",
+      "audio": "production-audio/v1/audio/202620201261.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201262": {
+      "text": "我跟著老師念愉快的享用",
+      "digest": "de918044cb1c770e",
+      "audio": "production-audio/v1/audio/202620201262.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201263": {
+      "text": "老師請我念火鍋",
+      "digest": "3f27b74faff36db5",
+      "audio": "production-audio/v1/audio/202620201263.mp3",
+      "source": "packs/2026康軒小二上-12.json",
+      "ready": true
+    },
+    "202620201264": {
+      "text": "我把美妙的冬天寫在本子上",
+      "digest": "3183458708992aa3",
+      "audio": "production-audio/v1/audio/202620201264.mp3",
       "source": "packs/2026康軒小二上-12.json",
       "ready": true
     },
@@ -14507,8 +17111,8 @@
       "ready": true
     }
   },
-  "generatedNow": 48,
-  "reused": 2022,
-  "azureRequests": 3,
+  "generatedNow": 376,
+  "reused": 2066,
+  "azureRequests": 19,
   "batchSize": 20
 }
